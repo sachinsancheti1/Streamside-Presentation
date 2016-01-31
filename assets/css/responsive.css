@@ -1,0 +1,4770 @@
+/*
+Viewport Sizes
+1920
+1885
+1875
+1887
+1787
+1360
+1280
+1200
+1180
+1024
+980
+800
+768
+667
+640
+600
+568
+480
+414
+375
+360
+320
+*/
+
+/* Responsive */
+
+.cd-section:nth-of-type(2) .cd-half-block:first-of-type, 
+.cd-section:nth-of-type(3) .cd-half-block:first-of-type, 
+.cd-section:nth-of-type(4) .cd-half-block:first-of-type, 
+.cd-section:nth-of-type(5) .cd-half-block:first-of-type, 
+.cd-section:nth-of-type(6) .cd-half-block:first-of-type, 
+.cd-section:nth-of-type(7) .cd-half-block:first-of-type {
+  background-size: cover !important;
+}
+.page-link .pagination li {
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  html,body {
+    overflow: visible !important;
+  }
+  .cd-section {
+    position: inherit !important;
+    transition: none !important;
+    transform: none !important;
+  }
+  .cd-half-block {
+    width: 100%;
+    max-width: inherit;
+
+    transition: none !important;
+    transform: none !important;
+  }
+  .cd-block {
+    height: 100%;
+    width: 100;
+    position: relative;
+  }
+  .cd-half-block.right-side {
+    left: 0px !important;
+  }
+  .cd-half-block.left-side {
+    right: 0px !important;
+  }
+  .nav-panel {
+    display: none;
+  }
+
+  .about-section .right-side,
+  .service-section .left-side,
+  .team-section .right-side,
+  .portfolio-section .left-side,
+  .blog-section .right-side,
+  .contact-section .left-side {
+    padding: 4%;
+    overflow: auto;
+    width: 100%;
+    max-width: inherit;
+    z-index: 9;
+  }
+  .about-section,
+  .service-section,
+  .blog-section,
+  .contact-section {
+    height: 54em;
+  }
+  .team-section {
+    height: 65em;
+  }
+  .portfolio-section {
+    height: 58em;
+  }
+  .about-section .cd-half-block.right-side,
+  .team-section .cd-half-block.right-side,
+  .portfolio-section .cd-half-block.left-side,
+  .blog-section .cd-half-block.right-side,
+  .contact-section .cd-half-block.right-side {
+    top: 25em;
+    padding: 5% 2% !important;
+  }
+  .service-section .cd-half-block {
+    position: absolute !important;
+  }
+  .service-section .right-side,
+  .portfolio-section .right-side {
+    top: 0px;
+    height: 25em !important;
+    padding: 0px !important;
+  }
+  .service-section .left-side {
+    top: 25em;
+  }
+  .contact-section .cd-half-block.right-side {
+    top: 0px !important;
+    padding: 0px !important;
+  }
+  .contact-section .cd-half-block.left-side {
+    top: 25em;
+    padding: 5% 3% !important;
+  }
+  .about-page .cd-half-block {
+    width: 100%;
+    max-width: inherit !important;
+    position: inherit !important;
+    padding: 5% 1%;
+    height: 27em !important;
+  }
+  .about-page .section-1 {
+    height: 80em !important;
+  }
+  .about-page .section-1 .cd-half-block.right-side {
+    height: 55em !important;
+  }
+  .about-page .section-2 .cd-half-block.left-side {
+    height: 36em !important;
+  }
+  .about-page .section-2 .cd-half-block.right-side {
+    height: 44em !important;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 2249px) and (max-width: 2560px) {
+  body{
+    margin:0;
+  }
+  .overlay .overlay-close {
+    width: 20px !important;
+    height: 22px !important;
+    right: 5.6% !important;
+    top: 10% !important;
+  }
+  .overlay-genie.open nav {
+    left: 0%;
+  }
+  .menu-logo{
+    margin-top: 15%;
+    left: 48.6%;
+  }
+  .overlay ul li a {
+    font-size: 24px;
+  }
+  .member {
+    display: inline-block;
+    padding-right: 25px;
+    max-width: 63%;
+    width: 46%;
+  }
+  .member-name{
+    display: block;
+  }
+  #portfolio .btn{
+   display: block; 
+ }
+ .contactform input {
+  width: 47%;
+}
+.contactform button{
+  margin: 40px 10px 0 0;
+}
+
+}
+
+@media only screen and (min-width: 1788px) and (max-width: 2248px) {
+  body{
+    margin:0;
+  }
+  .overlay .overlay-close {
+    width: 20px !important;
+    height: 22px !important;
+    right: 5.6% !important;
+    top: 10% !important;
+  }
+  .overlay-genie.open nav {
+    left: 0%;
+  }
+  .menu-logo{
+    left: 47.6%;
+  }
+  .overlay ul li a {
+    font-size: 24px;
+  }
+  .cd-half-block {
+    height: 70em !important;
+  }
+  .contactform input {
+    width: 48%;
+  }
+  .contactform button{
+    margin: 40px 10px 0 0;
+  }
+  .google-map-container {
+    height: 1075px;
+  }
+}
+@media only screen and (min-width: 1369px) and (max-width: 1787px) {
+  body{
+    margin:0;
+  }
+  .overlay .overlay-close {
+    width: 20px !important;
+    height: 22px !important;
+    right: 5.6% !important;
+    top: 10% !important;
+  }
+  .overlay-genie.open nav {
+    left: 0%;
+  }
+  .section-title{
+    padding-bottom: 10px;
+    font-size: 2.8rem;
+  }
+  .cd-section h1 {
+    font-size: 2.5rem;
+  }
+  .cd-half-block {
+    height: 65em !important;
+  }
+  .next-section {
+    padding-top: 100px;
+  }
+  .contactform input {
+    width: 47%;
+  }
+  .blog-single .commentform input {
+    width: 48.25%;
+  }
+  .contactform button{
+    margin: 27px 20px 0 0;
+  }
+  .section-title{
+    padding-bottom: 10px;
+    font-size: 3.06rem;
+  }
+  .section-description {
+    font-size: 1.2rem;
+    line-height: 25px;
+    padding-bottom: 55px;
+  }
+  .item-details{
+    font-size: 1em;
+    padding-top: 10px;
+    line-height: 25px;
+  }
+  .item-title{
+    font-size: 1rem;
+  }
+  .about-details .item{
+    padding-bottom: 35px;
+  }
+  .portfolio-details figure {
+    max-width: 45%;
+    height: 140px;
+  }
+  .entry-title{
+    font-size: .95rem;
+  }
+  .entry-text,.comment-content p {
+    font-size: 1rem;
+    line-height: 22px;
+  }
+  .blog-details{
+    padding-right: 15px;
+  }
+  .member-name{
+    font-size: 1rem;
+  }
+  .contact-icon{
+    font-size: 2.18rem;
+  }
+  .address-details{
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  address p, span.mobile-no, .address-details a {
+    font-size: .9rem;
+    line-height: 20px;
+  }
+  .contactform input, .contactform textarea{
+    font-size: .7rem;
+    margin-bottom: 25px;
+  }
+
+  /* Service Page */
+  .service-page .section-description {
+    padding-bottom: 30px;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+  .service-page .service-details p, .service-page .our-success p{
+    font-size: 1rem;
+  }
+  .service-page .service-details .item{
+    padding-bottom: 25px;
+  }
+  .service-page .service-details .item p{
+    font-size: .9rem;
+    line-height: 22px;
+  }
+  .service-page .our-success{
+    padding-top: 35px;
+  }
+  .success-counter .item-icon{
+    font-size: 2.5em;
+    padding-bottom: 15px;
+  }
+  .other-services{
+    padding-top: 10px;
+  }
+  .list-items{
+    padding-top: 20px;
+  }
+  .list-items p{
+    font-size: .9rem;
+  }
+
+  /* About US */
+  .about-page .our-team{
+    padding-top: 40px;
+  }
+  .about-page .section-title{
+    font-size: 2.6rem;  
+  }
+  .about-page .section-description{
+    font-size: 1rem;   
+    padding-bottom: 35px;
+  }
+  .our-story p{
+    font-size: 1rem;
+  }
+  .about-page .about-details{
+    padding-top: 30px;
+  }
+  .about-page .item-details {
+    font-size: 0.9em;
+    padding-top: 8px;
+    line-height: 20px;
+  }
+  .about-page .member{
+    max-width: 45%;
+  }
+  .about-details .item{
+    padding-bottom: 15px;
+  }
+  .about-page blockquote{
+    font-size: 1.2rem;
+  }
+  .skills-details canvas{
+    height: 130px;
+    width: 130px;
+  }
+  .wpcf7-form-control-wrap textarea {
+    width: 70%;
+  }
+
+
+}
+
+
+
+@media only screen and (min-width: 1281px) and (max-width: 1368px) {
+  body{
+    margin:0;
+  }
+  .overlay .overlay-close {
+    width: 20px !important;
+    height: 22px !important;
+    right: 5.6% !important;
+    top: 10% !important;
+  }
+  .overlay-genie.open nav {
+    left: 0%;
+  }
+  .section-title{
+    padding-bottom: 10px;
+    font-size: 2.8rem;
+  }
+  .cd-section h1 {
+    font-size: 2.5rem;
+  }
+  .cd-section .cd-block {
+    height: 43em !important;
+  }
+  .cd-half-block {
+    height: 43em !important;
+  }
+  .cd-half-block:nth-of-type(1){
+    height: 20em;
+  }
+  .next-section {
+    padding-top: 30px;
+  }
+  .section-title{
+    padding-bottom: 10px;
+    font-size: 3.06rem;
+  }
+  .section-description {
+    font-size: 1.2rem;
+    line-height: 25px;
+    padding-bottom: 55px;
+  }
+  .item-details{
+    font-size: 1em;
+    padding-top: 10px;
+    line-height: 25px;
+  }
+  .item-title{
+    font-size: 1rem;
+  }
+  .about-details .item{
+    padding-bottom: 35px;
+  }
+  .portfolio-details figure {
+    max-width: 45%;
+    height: 140px;
+  }
+  .entry-title{
+    font-size: .95rem;
+  }
+  .entry-text,.comment-content p {
+    font-size: 1rem;
+    line-height: 22px;
+  }
+  .blog-details{
+    padding-right: 15px;
+  }
+  .member-name{
+    font-size: 1rem;
+  }
+  .contact-icon{
+    font-size: 2.18rem;
+  }
+  .address-details{
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  address p, span.mobile-no, .address-details a {
+    font-size: .9rem;
+    line-height: 20px;
+  }
+  .contactform input, .contactform textarea{
+    margin-bottom: 25px;
+  }
+  .contactform input {
+    width: 47%;
+  }
+  
+  /* Service Page */
+  .service-page   .section-description {
+    padding-bottom: 30px;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+  .service-page .service-details p, .service-page .our-success p{
+    font-size: 1rem;
+  }
+  .service-page .service-details .item{
+    padding-bottom: 25px;
+  }
+  .service-page .service-details .item p{
+    font-size: .9rem;
+    line-height: 22px;
+  }
+  .service-page .our-success{
+    padding-top: 35px;
+  }
+  .success-counter .item-icon{
+    font-size: 2.5em;
+    padding-bottom: 15px;
+  }
+  .other-services{
+    padding-top: 10px;
+  }
+  .list-items{
+    padding-top: 20px;
+  }
+  .list-items p{
+    font-size: .9rem;
+  }
+
+
+
+  /* About US */
+  .about-page .our-team{
+    padding-top: 30px;
+  }
+  .about-page .section-title{
+    font-size: 2.6rem;  
+  }
+  .about-page .section-description{
+    font-size: 1rem;   
+    padding-bottom: 35px;
+  }
+  .our-story p{
+    font-size: 1rem;
+  }
+  .about-page .about-details{
+    padding-top: 30px;
+  }
+  .about-page .item-details {
+    font-size: 0.9em;
+    padding-top: 8px;
+    line-height: 20px;
+  }
+  .about-page .member{
+    max-width: 44% !important;
+  }
+  .about-details .item{
+    padding-bottom: 30px;
+  }
+  .about-page blockquote{
+    font-size: 1.2rem;
+  }
+  .skills-details canvas{
+    height: 130px;
+    width: 130px;
+  }
+
+  .wpcf7-form-control-wrap textarea {
+    width: 65%;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 1201px) and (max-width: 1280px) {
+  body{
+    margin:0;
+  }
+  .overlay .overlay-close {
+    width: 20px !important;
+    height: 22px !important;
+    right: 5.6% !important;
+    top: 10% !important;
+  }
+  .overlay-genie.open nav {
+    left: 0%;
+  }
+  .section-title{
+    padding-bottom: 10px;
+    font-size: 2.8rem;
+  }
+  .cd-section h1 {
+    font-size: 2.5rem;
+  }
+  .service-page .cd-half-block {
+    height: 40em;
+  }
+  .next-section {
+    padding-top: 30px;
+  }
+  .section-title{
+    padding-bottom: 10px;
+    font-size: 2.06rem;
+  }
+  .section-description {
+    font-size: 1.2rem;
+    line-height: 25px;
+    padding-bottom: 55px;
+  }
+  .item-details{
+    font-size: 1em;
+    padding-top: 10px;
+    line-height: 25px;
+  }
+  .item-title{
+    font-size: 1rem;
+  }
+  .about-details .item{
+    padding-bottom: 35px;
+  }
+  .portfolio-details figure {
+    max-width: 45%;
+    height: 140px;
+  }
+  .entry-title{
+    font-size: .95rem;
+  }
+  .entry-text,.comment-content p{
+    font-size: 1rem;
+    line-height: 22px;
+  }
+  .blog-details{
+    padding-right: 15px;
+  }
+  .member-name{
+    font-size: 1rem;
+  }
+  .contact-icon{
+    font-size: 1.18rem;
+  }
+  .address-details{
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  address p, span.mobile-no, .address-details a {
+    font-size: .7rem;
+    line-height: 15px;
+  }
+  .contactform input, .contactform textarea{
+    font-size: .7rem;
+    margin-bottom: 25px;
+  }
+
+  /* Service Page */
+  .service-page   .section-description {
+    padding-bottom: 30px;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+  .service-page .service-details p, .service-page .our-success p{
+    font-size: 1rem;
+  }
+  .service-page .service-details .item{
+    padding-bottom: 25px;
+  }
+  .service-page .service-details .item p{
+    font-size: .93rem;
+    line-height: 22px;
+  }
+  .service-page .our-success{
+    padding-top: 35px;
+  }
+  .success-counter .item-icon{
+    font-size: 2.5em;
+    padding-bottom: 15px;
+  }
+  .other-services{
+    padding-top: 10px;
+  }
+  .list-items{
+    padding-top: 20px;
+  }
+  .list-items p{
+    font-size: 1rem;
+  }
+
+
+  /* About US */
+  .about-page .our-team{
+    padding-top: 40px;
+  }
+  .about-page .section-title{
+    font-size: 2.6rem;  
+  }
+  .about-page .section-description{
+    font-size: 1rem;   
+    padding-bottom: 35px;
+  }
+  .our-story p{
+    font-size: 1rem;
+  }
+  .about-page .about-details{
+    padding-top: 30px;
+  }
+  .about-page .item-details {
+    font-size: 0.9em;
+    padding-top: 8px;
+    line-height: 20px;
+  }
+  .about-page .member{
+    max-width: 43% !important;
+  }
+  .about-details .item{
+    padding-bottom: 15px;
+  }
+  .about-details .item{
+    padding-bottom: 15px;
+  }
+  .about-page blockquote{
+    font-size: 1.2rem;
+  }
+  .skills-details canvas{
+    height: 130px;
+    width: 130px;
+  }
+
+
+  /* About US */
+  .about-page .our-team{
+    padding-top: 40px;
+  }
+  .about-page .section-title{
+    font-size: 2.6rem;  
+  }
+  .about-page .section-description{
+    font-size: 1rem;   
+    padding-bottom: 35px;
+  }
+  .our-story p{
+    font-size: 1rem;
+  }
+  .about-page .about-details{
+    padding-top: 30px;
+  }
+  .about-page .item-details {
+    font-size: 0.9em;
+    padding-top: 8px;
+    line-height: 20px;
+  }
+  .about-page .member{
+    max-width: 44%;
+  }
+  .about-details .item{
+    padding-bottom: 15px;
+  }
+  .about-details .item{
+    padding-bottom: 15px;
+  }
+  .about-page blockquote{
+    font-size: 1.2rem;
+  }
+  .skills-details canvas{
+    height: 130px;
+    width: 130px;
+  }
+  .wpcf7-form-control-wrap textarea {
+    width: 60%;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 1181px) and (max-width: 1200px) {
+  body{
+    margin:0;
+  }
+  .overlay .overlay-close {
+    width: 20px !important;
+    height: 22px !important;
+    right: 5.6% !important;
+    top: 10% !important;
+  }
+  .overlay-genie.open nav {
+    left: 0%;
+  }
+  .cd-section {
+    height: 64em;
+  }
+  .cd-section h1 {
+    font-size: 4.06rem;
+  }
+  .cd-half-block {
+    height: 64em !important;
+    width: 50%;
+    position: absolute;
+    top: 0;
+  }
+  .item-title{
+    font-size: 1.1em;
+  }
+  .item-details{
+    font-size: 1em;
+  }
+  .about-details .item{
+    padding-bottom: 25px;
+  }
+  .service-details .item{
+    padding-bottom: 25px; 
+  }
+  .section-description{
+    font-size: 1.1em;
+    line-height: 27px;
+    padding-bottom: 35px;
+  }
+  .portfolio-details figure{
+    max-width: 46%;
+    height: 140px;
+  }
+  .contactform input{
+    width: 45%;
+  }
+  .contactform textarea{
+    width: 61%; 
+  }
+  .contactform button{
+    margin: 27px 10px 0 0;
+  }
+  .contact-icon{
+    font-size: 1.18rem;
+  }
+  .cd-vertical-nav {
+    display: block;
+  }
+  .address-details{
+    padding-top: 15px;
+  }
+  span.mobile-no{
+    font-size: .8em;
+  }
+  address p{
+    font-size: .8rem;
+  }
+  .section-title{
+    padding-bottom: 10px;
+  }
+
+
+  /* Service Page */
+  .service-page .cd-half-block {
+    height: 40em;
+  }
+  .service-page   .section-description {
+    padding-bottom: 30px;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+  .service-page .service-details p, .service-page .our-success p{
+    font-size: 1rem;
+  }
+  .service-page .service-details .item{
+    padding-bottom: 25px;
+    font-size: .9em;
+    max-width: 49%;
+  }
+  .service-page .service-details .item p{
+    font-size: .94em;
+    line-height: 18px;
+  }
+  .service-page .our-success{
+    padding-top: 35px;
+  }
+  .success-counter .item-icon{
+    font-size: 2.5em;
+    padding-bottom: 7px;
+  }
+  .success-counter .count{
+    font-size: 3em;
+  }
+  .other-services{
+    padding-top: 10px;
+  }
+  .list-items{
+    padding-top: 20px;
+  }
+  .list-items p{
+    font-size: .94em;
+    line-height: 18px;
+  }
+
+
+
+  /* About US */
+  .about-page .our-team{
+    padding-top: 40px;
+  }
+  .about-page .section-title{
+    font-size: 2.6rem;  
+  }
+  .about-page .section-description{
+    font-size: 1rem;   
+    padding-bottom: 35px;
+  }
+  .chart-content{
+    margin-left: 0;
+    font-size: 2em;
+  }
+  .our-story p{
+    font-size: 1rem;
+  }
+  .about-page .about-details{
+    padding-top: 30px;
+  }
+  .about-page .item-details {
+    font-size: 0.9em;
+    padding-top: 8px;
+    line-height: 20px;
+  }
+  .about-page .member{
+    max-width: 44% !important;
+  }
+  .about-details .item{
+    padding-bottom: 15px;
+  }
+  .about-details .item{
+    padding-bottom: 15px;
+  }
+  .about-page blockquote{
+    font-size: 1.2rem;
+  }
+  .skills-details canvas{
+    height: 130px;
+    width: 130px;
+  }
+  .wpcf7-form-control-wrap textarea {
+    width: 60%;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1180px) {
+  body{
+    margin:0;
+  }
+  .overlay .overlay-close {
+    width: 20px !important;
+    height: 22px !important;
+    right: 5.6% !important;
+    top: 10% !important;
+  }
+  .overlay-genie.open nav {
+    left: 0%;
+  }
+  .section-description{
+    font-size: 1em;  
+    padding-bottom: 35px;
+    line-height: 27px;
+  }
+  .about-details .item{
+    padding-bottom: 40px;
+  }
+  .item-details{
+    font-size: .8em;  
+  }
+  .about-details .item{
+    padding-right: 15px;
+  }
+  .service-details .item{
+    padding-right: 7px;
+  }
+  .portfolio-details figure{
+    max-width: 45%;
+    height: 150px;
+  }
+  .entry-title{
+    padding-bottom: 10px;
+  }
+  .entry-title a{
+    font-size: .9em;
+  }
+  .post-content {
+    padding-left: 70px;
+    text-align: justify;
+  }
+  .contactform input{
+    width: 45%;
+  }
+  .contactform textarea{
+    width: 61%; 
+  }
+  .contactform button{
+    margin: 27px 10px 0 0;
+  }
+  .address-details{
+    padding-top: 75px;
+  }
+  .contact-icon{
+    font-size: 1.2rem;
+    padding-bottom: 6px;
+  }
+  .section-title{
+    padding-bottom: 0;
+  }
+  span.mobile-no{
+    font-size: .8em;
+  }
+  address p{
+    font-size: .8rem;
+  }
+
+  /* Service Page */
+  .service-page .cd-half-block {
+    height: 40em;
+  }
+  .service-page   .section-description {
+    padding-bottom: 30px;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+  .service-page .service-details p, .service-page .our-success p{
+    font-size: 1rem;
+  }
+  .service-page .service-details .item{
+    padding-bottom: 25px;
+    font-size: .9em;
+    max-width: 49%;
+  }
+  .service-page .service-details .item p{
+    font-size: .94em;
+    line-height: 18px;
+  }
+  .service-page .our-success{
+    padding-top: 35px;
+  }
+  .success-counter .item-icon{
+    font-size: 2em;
+    padding-bottom: 7px;
+  }
+  .success-counter .item-name{
+    font-size: 1.4em;
+  }
+  .success-counter .count{
+    font-size: 3em;
+  }
+  .other-services{
+    padding-top: 10px;
+  }
+  .list-items{
+    padding-top: 20px;
+  }
+  .list-items p{
+    font-size: .85em;
+    line-height: 18px;
+  }
+
+
+
+  /* About US */
+  .about-page .our-team{
+    padding-top: 40px;
+  }
+  .about-page .section-title{
+    font-size: 2.6rem;  
+  }
+  .about-page .section-description{
+    font-size: 1rem;   
+    padding-bottom: 35px;
+  }
+  .chart-content{
+    margin-left: 0;
+    font-size: 2em;
+  }
+  .our-story p{
+    font-size: 1rem;
+  }
+  .about-page .about-details{
+    padding-top: 30px;
+  }
+  .about-page .item-details {
+    font-size: 0.9em;
+    padding-top: 8px;
+    line-height: 20px;
+  }
+  .about-page .member{
+    max-width: 43% !important;
+    margin: 0px 20px 20px 0px;
+  }
+  .about-details .item{
+    padding-bottom: 15px;
+  }
+  .about-details .item{
+    padding-bottom: 15px;
+  }
+  .about-page blockquote{
+    font-size: 1.2rem;
+  }
+  .skills-details canvas{
+    height: 130px;
+    width: 130px;
+  }
+  .about-details .item {
+    padding-right: 5px;
+  }
+  .about-page .member-social li a{
+    margin: 0;
+  }
+  .slide img {
+    max-width: 170px;
+  }
+  .wpcf7-form-control-wrap textarea {
+    width: 60%;
+  }
+  .wpcf7-form input[type=submit] {
+    padding: 15px 60px 0px 60px;
+  }
+  .wpcf7-form .submit-button:before {
+    left: 35px;
+  }
+
+}
+
+
+@media only screen and (min-width: 980px) and (max-width: 1024px) {
+  .section-title{
+    padding-bottom: 20px;
+    font-size: 3.06rem;
+  }
+  .section-description{
+    font-size: 1rem;
+    line-height: 27px;
+    padding-bottom: 35px;
+  }
+  .entry-title a{
+    font-size: .9em;
+  }
+  .post-content {
+    padding-left: 70px;
+  }
+  .type-post {
+    padding-bottom: 30px;
+  }
+  .item-details {
+    font-size: .8em;
+  }
+  .about-details .item{
+    padding-bottom: 30px;
+  }
+  .item-title{
+    font-size: .85rem;
+  }
+  .portfolio-details figure{
+    max-width: 44%;
+    height: 130px;
+  }
+  .contactform button{
+    margin: 27px 10px 0 0;
+  }
+  .entry-title{
+    font-size: 1rem;   
+  }
+  .entry-text,.comment-content p{
+    font-size: .8rem;  
+  }
+  .contactform input{
+    width: 45%;
+  }
+  .contactform textarea{
+    width: 61%;
+  }
+  .address-details{
+    padding-top: 25px;
+  }
+
+
+  /* Service Page */
+  .service-page .cd-half-block {
+    height: 40em;
+  }
+  .service-page   .section-description {
+    padding-bottom: 30px;
+    font-size: 1rem;
+    line-height: 25px;
+  }
+  .service-page .service-details p, .service-page .our-success p{
+    font-size: 1rem;
+  }
+  .service-page .service-details .item{
+    padding-bottom: 25px;
+    font-size: .9em;
+    max-width: 49%;
+  }
+  .service-page .service-details .item p{
+    font-size: .94em;
+    line-height: 18px;
+  }
+  .service-page .our-success{
+    padding-top: 35px;
+  }
+  .success-counter .item-icon{
+    font-size: 2em;
+    padding-bottom: 7px;
+  }
+  .success-counter .item-name{
+    font-size: 1.4em;
+  }
+  .success-counter .count{
+    font-size: 3em;
+  }
+  .other-services{
+    padding-top: 10px;
+  }
+  .list-items{
+    padding-top: 20px;
+  }
+  .list-items p{
+    font-size: .8em;
+    line-height: 22px;
+  }
+
+
+
+  /* About US */
+  .about-page p{
+    font-size: .9em;
+  }
+  .about-page .our-team{
+    padding-top: 30px;
+  }
+  .about-page .section-title{
+    font-size: 2.6rem;  
+  }
+  .about-page .section-description{
+    font-size: .9rem;
+    padding-bottom: 35px;
+  }
+  .chart-content{
+    margin-left: 0;
+    font-size: 2em;
+    left: 39%;
+  }
+  .our-story p, .our-team p{
+    font-size: .9rem;
+  }
+  .about-page .about-details{
+    padding-top: 30px;
+  }
+  .about-page .item-details {
+    font-size: 0.8em;
+    padding-top: 8px;
+    line-height: 20px;
+  }
+  .about-page .member{
+    max-width: 43% !important;
+  }
+  .about-details .item{
+    padding-bottom: 15px;
+  }
+  .about-details .item{
+    padding-bottom: 15px;
+  }
+  .about-page blockquote{
+    font-size: 1.2rem;
+  }
+  .skills-details canvas{
+    height: 130px;
+    width: 130px;
+  }
+  .about-details .item {
+    padding-right: 5px;
+  }
+  .about-page .member-social li a{
+    margin: 0;
+  }
+  .wpcf7-form-control-wrap textarea {
+    width: 60%;
+  }
+  .wpcf7-form input[type=submit] {
+    padding: 15px 60px 0px 60px;
+  }
+  .wpcf7-form .submit-button:before {
+    left: 35px;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 979px) {
+
+  .overlay .overlay-close {
+    width: 20px !important;
+    height: 22px !important;
+    right: 6% !important;
+    top: 11% !important;
+  }
+  .overlay-genie.open nav {
+    left: 0%;
+  }
+  .menu-logo {
+    padding-top: 80px;
+    position: absolute;
+    margin-top: 0%;
+  }
+  .next-section {
+    padding-top: 30px;
+  }
+  .cd-section h1{
+    font-size: 3.06rem;
+  }
+  .section-title{
+    padding-bottom: 10px;
+    font-size: 2.5rem;
+  }
+  .section-description {
+    font-size: .89rem;
+    line-height: 25px;
+    padding-bottom: 55px;
+  }
+  .member-name {
+    font-size: 1rem;
+  }
+  .item-details{
+    font-size: .875em;
+    padding-top: 10px;
+    line-height: 20px;
+  }
+  .item-title{
+    font-size: 1rem;
+  }
+  .about-details .item{
+    padding-bottom: 35px;
+  }
+  .portfolio-details figure {
+    max-width: 44%;
+    height: 130px;
+  }
+  .entry-title{
+    font-size: .95rem;
+  }
+  .entry-text, .comment-content p{
+    font-size: .78rem;
+    line-height: 20px;
+  }
+  .blog-details{
+    padding-right: 15px;
+  }
+  .contact-icon{
+    font-size: 1.18rem;
+  }
+  .address-details{
+    padding-top: 40px;
+  }
+  address p, span.mobile-no, .address-details a {
+    font-size: .7rem;
+    line-height: 15px;
+  }
+  .contactform input, .contactform textarea{
+    font-size: .7rem;
+    margin-bottom: 25px;
+  }
+
+
+  /* Service Page */
+  .service-page .cd-half-block {
+    height: 40em;
+  }
+  .service-page .section-description {
+    padding-bottom: 30px;
+  }
+  .service-page .item-title {
+    font-size: .94rem;
+  }
+  .service-page .service-details .item{
+    padding-bottom: 25px;
+    font-size: .875em;
+    max-width: 49%;
+  }
+  .service-page .service-details .item p{
+    font-size: .9rem;
+    line-height: 18px;
+  }
+  .service-page .our-success{
+    padding-top: 35px;
+  }
+  .success-counter .item-icon{
+    font-size: 2em;
+    padding-bottom: 7px;
+  }
+  .success-counter .item-name{
+    font-size: 1.1em;
+  }
+  .success-counter .count{
+    font-size: 3em;
+  }
+  .other-services{
+    padding-top: 10px;
+  }
+  .list-items{
+    padding-top: 20px;
+  }
+  .list-items p{
+    font-size: .875em;
+    line-height: 25px;
+  }
+
+
+  /* About US */
+  .about-page .our-team{
+    padding-top: 30px;
+  }
+  .about-page .section-title{
+    font-size: 2.6rem;  
+  }
+  .about-page .section-description{
+    font-size: .8rem;
+    padding-bottom: 35px;
+  }
+  .chart-content{
+    margin-left: 0;
+    font-size: 2em;
+  }
+  .about-page .about-details{
+    padding-top: 30px;
+  }
+  .about-page .item-details {
+    font-size: 0.875em;
+    padding-top: 8px;
+    line-height: 20px;
+  }
+  .about-page .member{
+    max-width: 41% !important;  
+  }
+  .about-details .item{
+    padding-bottom: 15px;
+  }
+  .about-details .item{
+    padding-bottom: 15px;
+  }
+  .about-page blockquote {
+    font-size: 1rem;
+    line-height: 22px;
+  }
+  .skills-details canvas{
+    height: 130px;
+    width: 130px;
+  }
+  .about-details .item {
+    padding-right: 5px;
+  }
+  .about-page .member-social li a{
+    margin: 0;
+  }
+  .testimonial-slider h2{
+    font-size: 1.2em !important;
+  }
+  .testimonial-slider h6{
+    font-size: 1em !important;
+  }
+  .slide img {
+    max-width: 160px;
+  }
+  label {
+    bottom: 85px;
+  }
+  .wpcf7-form-control-wrap textarea {
+    width: 60%;
+  }
+  .wpcf7-form input[type=submit] {
+    padding: 15px 50px 0px 50px;
+  }
+  .wpcf7-form .submit-button:before {
+    left: 25px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+  .overlay .overlay-close {
+    width: 20px !important;
+    height: 22px !important;
+    right: 6% !important;
+    top: 11% !important;
+  }
+  .overlay-genie.open nav {
+    left: 0%;
+  }
+  .menu-logo {
+    padding-top: 80px;
+    position: absolute;
+    margin-top: 0%;
+  }
+  .next-section {
+    padding-top: 60px;
+  }
+  .section-title{
+    padding-bottom: 10px;
+    font-size: 2.8rem;
+  }
+  .section-title{
+    padding-bottom: 10px;
+    font-size: 3.06rem;
+  }
+  .section-description {
+    font-size: .89rem;
+    line-height: 25px;
+    padding-bottom: 55px;
+  }
+  .item-details{
+    font-size: .9em;
+    padding-top: 10px;
+    line-height: 20px;
+  }
+  .item-title{
+    font-size: 1rem;
+  }
+  .about-details .item{
+    padding-bottom: 35px;
+  }
+  .portfolio-details figure {
+    max-width: 44%;
+    height: 130px;
+  }
+  .entry-title{
+    font-size: .95rem;
+  }
+  .entry-text, .comment-content p {
+    font-size: .78rem;
+    line-height: 20px;
+  }
+  .blog-details{
+    padding-right: 15px;
+  }
+  .member-name{
+    font-size: 1rem;
+  }
+  .contact-icon{
+    font-size: 1.18rem;
+  }
+  .address-details{
+    padding-top: 40px;
+  }
+  address p, span.mobile-no, .address-details a {
+    font-size: .7rem;
+    line-height: 15px;
+  }
+  .contactform input, .contactform textarea{
+    font-size: .7rem;
+    margin-bottom: 25px;
+  }
+  .contactform input {
+    width: 45%;
+  }
+  .about-page .member-social li a {
+    width: 23px;
+    height: 27px;
+  }
+  .contactform textarea {
+    width: 60%;
+  }
+  .cd-half-block:nth-of-type(2){
+    padding: 4% !important;
+  }
+  .service-page .section-1 .cd-half-block.left-side{
+    padding: 3% !important; 
+  }
+
+  /* Service Page */
+  .service-page .cd-half-block {
+    height: 40em;
+  }
+  .service-page .section-description {
+    padding-bottom: 30px;
+    font-size: .9rem;
+    line-height: 20px;
+  }
+  .service-page .item-title {
+    font-size: .94rem;
+  }
+  .service-page .service-details p, .service-page .our-success p{
+    font-size: .9rem;
+  }
+  .service-page .service-details .item{
+    padding-bottom: 25px;
+    font-size: .85em;
+    max-width: 49%;
+  }
+  .service-page .our-success{
+    padding-top: 35px;
+  }
+  .success-counter .item-icon{
+    font-size: 2em;
+    padding-bottom: 7px;
+  }
+  .success-counter .item-name{
+    font-size: 1.1em;
+  }
+  .success-counter .count{
+    font-size: 3em;
+  }
+  .other-services{
+    padding-top: 10px;
+    }  .list-items{
+      padding-top: 20px;
+    }
+    .list-items p{
+      font-size: .875em;
+      line-height: 22px;
+    }
+
+    /* About US */
+    .about-page p{
+      font-size: .9rem;
+      line-height: 20px;
+    }
+    .about-page .our-team{
+      padding-top: 30px;
+    }
+    .about-page .section-title{
+      font-size: 2.6rem;  
+    }
+    .about-page .section-description{
+      font-size: .8rem;
+      padding-bottom: 35px;
+    }
+    .chart-content{
+      margin-left: 0;
+      font-size: 2em;
+      left: 38%;
+    }
+    .our-story p, .our-team p {
+      font-size: .9rem;
+      line-height: 20px;
+    }
+    .about-page .about-details{
+      padding-top: 30px;
+    }
+    .about-page .member{
+      max-width: 44% !important;
+      margin-right: 15px;
+    }
+    .about-details .item{
+      padding-bottom: 15px;
+    }
+    .about-details .item{
+      padding-bottom: 15px;
+    }
+    .about-page blockquote {
+      font-size: 1rem;
+      line-height: 22px;
+      padding: 15px;
+    }
+    label {
+      bottom: 120px;
+    }
+    .skills-details canvas{
+      height: 130px;
+      width: 130px;
+    }
+    .about-details .item {
+      padding-right: 5px;
+    }
+    .about-page .member-social li a{
+      margin: 0;
+    }
+    .testimonial-slider h2{
+      font-size: 1.2em !important;
+    }
+    .testimonial-slider h6{
+      font-size: 1em !important;
+    }
+    .slide img {
+      max-width: 140px;
+    }
+    .wpcf7-form-control-wrap textarea {
+      width: 60%;
+    }
+    .wpcf7-form input[type=submit] {
+      padding: 15px 50px 0px 50px;
+    }
+    .wpcf7-form .submit-button:before {
+      left: 25px;
+    }
+
+  }
+
+  @media only screen and (min-width: 669px) and (max-width: 767px) {
+    .cd-section:first-of-type .cd-block {
+      height: 48em !important;
+    }
+    .main-title {
+      padding-top: 200px;
+    }
+    .overlay .overlay-close {
+      width: 20px !important;
+      height: 22px !important;
+      right: 6% !important;
+      top: 11% !important;
+    }
+    .overlay-genie.open nav {
+      left: 0%;
+    }
+    .menu-area{
+      width: 350px;
+    }
+    .menu-logo {
+      padding-top: 40px;
+      margin-top: 2%;
+      left: 44.6%;
+    }
+    .section-title{
+      padding-bottom: 10px;
+      font-size: 2.8rem;
+    }
+    .section-description {
+      font-size: 1.1rem;
+      line-height: 30px;
+      padding-bottom: 40px;
+    }
+    .item-title{
+      font-size: 1rem;
+    }
+    .about-section .left-side {
+      height: 25em !important;
+    }
+    .about-details .item{
+      padding-bottom: 35px;
+    }
+    .portfolio-details figure {
+      max-width: 45%;
+    }
+    .service-details .item {
+      padding-bottom: 30px;
+    }
+    .other-services{
+      padding-bottom: 30px;
+    }
+    .blog-details{
+      padding-right: 15px;
+    }
+    .member-name{
+      font-size: 1rem;
+    }
+    .google-map-container {
+      height: 440px;
+    }
+    .address-details{
+      padding-top: 40px !important;
+      padding-bottom: 60px;
+    }
+    address p, span.mobile-no, .address-details a {
+      font-size: .9rem;
+      line-height: 22px;
+    }
+    .contactform input, .contactform textarea{
+      font-size: .9rem;
+      margin-bottom: 25px;
+    }
+    .contactform button {
+      margin: 37px 10px 0px 0px;
+    }
+
+    /* Services */
+
+    .service-page .cd-half-block {
+      height: 43em !important;
+      position: inherit !important;
+    }
+    .service-page .cd-half-block.right-side {
+      height: 43em !important;
+    }
+
+    /* About US */
+
+    .about-page p{
+      font-size: .9rem;
+      line-height: 20px;
+    }
+    #blog-single .commentform button{
+      margin: 1px 10px 0px 0px;
+    }
+    .about-page .section-title{
+      font-size: 2.6rem;  
+    }
+    .portfolioFilter a{
+      margin: 0px 8px 10px;
+    }
+    .about-page .section-description{
+      font-size: .9rem;
+      padding-bottom: 35px;
+    }
+    .chart-content{
+      margin-left: 0;
+      font-size: 2em;
+      left: 40%;
+    }
+    .our-story p, .our-team p {
+      font-size: .9rem;
+      line-height: 20px;
+    }
+    .about-page .about-details{
+      padding-top: 30px;
+    }
+    .about-page .item-details {
+      font-size: 0.8em;
+      padding-top: 8px;
+      line-height: 20px;
+    }
+    .about-page .member{
+      max-width: 41% !important;
+    }
+    .about-details .item{
+      padding-bottom: 15px;
+    }
+    .about-details .item{
+      padding-bottom: 15px;
+    }
+
+    .about-page blockquote {
+      font-size: 1rem;
+    }
+    .skills-details canvas{
+      height: 110px;
+      width: 110px;
+    }
+    .about-details .item {
+      padding-right: 5px;
+    }
+    .about-page .member-social li a{
+      margin: 0;
+    }
+    .testimonial-slider h2{
+      font-size: 2em !important;
+    }
+    .testimonial-slider h6{
+      font-size: 1.4em !important;
+    }
+    .wpcf7-form-control-wrap textarea {
+      width: 60%;
+    }
+    .wpcf7-form input[type=submit] {
+      padding: 15px 50px 0px 50px;
+    }
+    .wpcf7-form .submit-button:before {
+      left: 25px;
+    }
+    .service-page .cd-half-block:nth-of-type(2) {
+      padding: 5% 1%;
+    }
+    .service-page .service-details .item {
+      padding-bottom: 30px;
+    }
+    .page-top {
+      height: 20px;
+    }
+    .blog-single {
+      width: 100%;
+    }
+    .leave-comment {
+      padding-bottom: 60px;
+    }
+    .sidebar {
+      float: none;
+      width: 100%;
+      padding-left: 0px;
+      padding-bottom: 40px;
+    }
+    .search-btn {
+      padding: 15px 15px !important;
+    }
+    .sidebar .widget {
+      padding-bottom: 40px;
+    }
+    .sidebar .latest-post li {
+      clear: both;
+      padding-bottom: 10px;
+      width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 640px) and (max-width: 668px) {
+    .cd-section:first-of-type .cd-block {
+      height: 45em !important;
+    }
+    .overlay .overlay-close {
+      width: 20px !important;
+      height: 22px !important;
+      right: 6.2% !important;
+      top: 10.8% !important;
+    }
+    .overlay-genie.open nav {
+      left: 0;
+    }
+    .main-title{
+      padding-top: 200px;
+    }
+    .sub-title {
+      margin-top: -105px;
+    }
+    .menu-logo {
+      margin-top: 0% !important;
+      padding-top: 80px !important;
+    }
+    .overlay ul li a{
+      line-height: 40px;
+    }
+    .menu-area{
+      width: 370px;
+    }
+    .menu-logo {
+      padding-top: 100px;
+    }
+    .section-title{
+      padding-bottom: 10px;
+      font-size: 2.8rem !important;
+    }
+    .section-description {
+      font-size: 1rem;
+      line-height: 25px;
+      padding-bottom: 35px;
+    }
+    .item-details{
+      font-size: 1em;
+      padding-top: 10px;
+      line-height: 25px;
+    }
+    .about-details .item{
+      padding-bottom: 35px;
+    }
+    .portfolio-details figure {
+      max-width: 45%;
+    }
+    .entry-title{
+      font-size: .95rem;
+    }
+    .entry-text, .comment-content p {
+      font-size: .78rem;
+      line-height: 20px;
+    }
+    .service-section {
+      height: 58em !important;
+    }
+    .service-section .cd-half-block.left-side,
+    .portfolio-section .cd-half-block.left-side {
+      height: 33em;
+    }
+    .contact-section .cd-half-block.left-side {
+      height: 40em;
+    }
+    .blog-details{
+      padding-right: 15px;
+    }
+    .member-name{
+      font-size: 1rem;
+    }
+    .contact-icon{
+      font-size: 1.18rem;
+    }
+    .address-details{
+      padding-top: 40px;
+      padding-bottom: 60px;
+    }
+    address p, span.mobile-no, .address-details a {
+      font-size: 0.9rem;
+      line-height: 22px;
+    }
+    #service .cd-half-block:nth-of-type(2){
+      margin: 0;
+    }
+    .contactform input, .contactform textarea{
+      font-size: .7rem;
+      margin-bottom: 25px;
+    }
+    .service-page .cd-half-block {
+      height: 40em !important;
+      position: inherit !important;
+    }
+    .service-page .cd-half-block.left-side {
+      height: 50em !important;
+    }
+
+    .other-services{
+      padding-bottom: 30px;
+    }
+
+    /* About US */
+    .about-page .section-1 .cd-block {
+      background-image: none;
+      height: 89em !important;
+    }
+    .about-page .section-1 .cd-half-block.right-side {
+      left: 0px !important;
+      box-shadow: none !important;
+      position: absolute;
+      height: 30em !important;
+      width: 100%;
+    }
+    .about-page .section-1 .cd-half-block.left-side {
+      right: 0px !important;
+      box-shadow: none !important;
+      position: absolute;
+      top: 0;
+      height: 30em !important;
+      width: 100%;
+    }
+    .item-image{
+      top: 45%;
+      margin-top: 0;
+    }
+    .cd-half-block:nth-of-type(1){
+      height: 25em;
+    }
+    .about-page .our-story p {
+      font-size: 1em;
+      line-height: 25px;
+    }   
+    .about-page .our-team{
+      position: absolute;
+      top: 680px; 
+    } 
+    .about-page .about-details{
+      position: absolute;
+    }
+    .about-details .item, .service-details .item {
+      width: 100%;
+      max-width: inherit;;
+      padding-bottom: 25px;
+      padding-right: 0px;
+    }
+    .about-details .btn, .service-details .btn {
+      margin-bottom: 30px;
+    }
+    .our-team p{
+      font-size: .9em;
+      line-height: 20px;  
+    }
+    .cd-half-block:nth-of-type(2) {
+      padding: 7% 2%;
+    }
+    .team-details{
+      padding-top: 30px; 
+    }
+    .about-page .section-2 .cd-half-block.left-side {
+      height: 40em !important;
+    }
+    .testimonial-slider {
+     width: 97%;
+     margin: 0 auto;
+     position: absolute;
+     padding-bottom: 30px;
+     overflow: hidden;
+     padding-top: 50px;
+     z-index: 300;
+   }
+   .about-page blockquote {
+    font-size: 1.15rem;
+  }
+  .testimonial-slider label{
+    bottom: 40px;
+  }
+  .testimonial-slider h2{
+    font-size: 1.5em;
+  }
+  .about-page .cd-half-block.left-side{
+    padding: 2%;
+  }
+  .about-page .about-details .item{
+    max-width: 100%;
+  }
+  .progress-wrap {
+    width: 35%;
+  }
+  .chart-title{
+    font-size: 1.2em;
+  }
+  .half-block.right-side .our-skills{
+    top: 400%;
+    position: absolute;
+  }
+  .about-page .section-title{
+    font-size: 2.6rem;  
+  }
+  .about-page .section-description{
+    font-size: .9rem;
+    padding-bottom: 35px;
+  }
+  .chart-content{
+    margin-left: 0;
+    font-size: 2.5em;
+    left: 36%;
+  }
+  .our-story p, .our-team p {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+  .about-page .about-details{
+    padding-top: 50px;
+  }
+  .about-page .item-details {
+    padding-top: 8px;
+    font-size: 1em;
+    line-height: 25px;
+  }
+  .about-details .item{
+    padding-bottom: 15px;
+  }
+  .about-page .member{
+    max-width: 38% !important;
+  }
+  .about-details .item{
+    padding-bottom: 15px;
+  }
+  .skills-details{
+    padding-bottom: 80px;
+  }
+  .portfolioFilter a{
+    margin: 5px 5px !important;
+    padding: 5px 8px !important;
+  }
+  .skills-details canvas{
+    height: 50%;
+    width: 80%;
+  }
+  .about-page .about-details .item{
+    max-width: 100%;
+  }
+  .about-details .item {
+    padding-right: 5px;
+  }
+  .about-page .member-social li a{
+    margin: 0;
+  }
+  .google-map-container {
+    height: 400px;
+  }
+  .entry-date span {
+    font-size: 1.15rem;
+    text-align: center;
+  }
+  .comment-list .child {
+    padding-left: 0px;
+  }
+  .single-page .post-container {
+    padding: 0px;
+  }
+  .blog-single {
+    width: 100%;
+  }
+  .sidebar {
+    float: none;
+    padding-left: 0px;
+    width: 100%;
+  }
+  .commentform input {
+    width: 30% !important;
+  }
+  .blog-single .post-content {
+    padding-left: 50px;
+  }
+  .entry-date {
+    font-size: .875em;
+    padding: 5px 5px 6px 5px;
+  }
+  .blog-single .entry-title {
+    font-size: 1.31rem;
+  }
+  .entry-text {
+    font-size: .875rem !important;
+    line-height: 23px;
+  }
+  .post-bottom {
+    padding-left: 70px;
+  }
+  .comment-content .btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+  }
+  .search-field {
+    font-size: .875rem;
+  }
+  .search-btn {
+    margin-top: 0px !important;
+    padding: 15px 20px !important; 
+  }
+  .latest-post li {
+    display: block;
+    min-height: 50px;
+  }
+  .leave-comment {
+    padding-bottom: 50px;
+  }
+  .comment-author {
+    max-width: 70px;
+  }
+  .comment-content {
+    padding-left: 90px;
+  }
+  .comment-content p {
+    font-size: .8rem;
+    line-height: 23px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  .blog-single blockquote {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .contactform button {
+    margin-top: 27px;
+  }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 639px) {
+ .cd-section:first-of-type .cd-block {
+  height: 25em !important;
+}
+.site-logo {
+  padding-top: 50px !important;
+}
+.menu-area{
+  width: 350px;
+}
+.menu-logo {
+  padding-top: 30px;
+  left: 42%;
+}
+.overlay .overlay-close {
+  right: 6%;
+  top: 11%;
+}
+.overlay nav {
+  top: 62%;
+  left: -1%;
+}
+.overlay ul li a{
+
+}
+.main-title{
+ padding-top: 100px !important; 
+}
+.section-title{
+  padding-bottom: 10px;
+  font-size: 2rem;
+}
+.cd-section h1 {
+  font-size: 2.5rem;
+}
+.service-details .title{
+  font-size: 1.4em;
+}
+.sub-title{
+  font-size: 1em;
+  margin-top: -60px !important;
+}
+.member{
+  padding-right: 0;
+}
+.cd-half-block:nth-of-type(1){
+  height: 37em;
+}
+.next-section {
+  padding-top: 30px;
+}
+.section-description {
+  font-size: .9rem;
+  line-height: 25px;
+  padding-bottom: 55px;
+}
+.item-details{
+  font-size: .9em;
+  padding-top: 10px;
+  line-height: 20px;
+}
+.item-title{
+  font-size: 1rem;
+}
+.about-details .item{
+  padding-bottom: 35px;
+}
+.portfolio-details figure {
+  max-width: 45%;
+}
+.entry-title{
+  font-size: .95rem;
+}
+.entry-text, .comment-content p {
+  font-size: .9rem;
+  line-height: 20px;
+}
+.blog-details{
+  padding-right: 15px;
+}
+.member-name{
+  font-size: 1rem;
+}
+.address-details{
+  padding-top: 40px !important;
+  padding-bottom: 30px;
+}
+address p, span.mobile-no, .address-details a {
+  font-size: .9rem;
+  line-height: 15px;
+}
+.contactform input, .contactform textarea{
+  font-size: .7rem;
+  margin-bottom: 25px;
+}
+/* Menu */
+.menu-area{
+  width: 240px;
+}
+.sliding-menu li{
+  max-width: 150px !important;
+}
+.sliding-menu a{
+  font-size: .8em;
+  padding: .8em;
+}
+.sliding-menu a.nav:before{
+  top: 15px;
+}
+.sliding-menu a.back:before{
+  left: 60px;
+  top:15px;
+}
+.sliding-menu a.back{
+  padding-top: 12px;
+  padding-left: 75px;
+}
+
+
+/* Service Page */
+.service-page .section-description {
+  padding-bottom: 30px;
+  font-size: 1rem;
+  line-height: 25px;
+}
+.service-page .item-title {
+  font-size: 1rem;
+}
+.service-page .service-details p, .service-page .our-success p{
+  font-size: 1rem;
+}
+.service-page .service-details .item{
+  padding-bottom: 25px;
+  font-size: .85em;
+  max-width: 100%;
+}
+.service-page .service-details .item p{
+  font-size: 1em;
+  line-height: 22px;
+}
+.service-page .our-success{
+  padding-top: 35px;
+}
+.success-counter .item-icon{
+  font-size: 2em;
+  padding-bottom: 7px;
+}
+.success-counter .item-name{
+  font-size: 1.1em;
+}
+.success-counter .count{
+  font-size: 3em;
+}
+.other-services {
+  padding-bottom: 30px !important;
+}
+.other-services p{
+  font-size: 1em;
+}
+.list-items{
+  padding-top: 20px;
+}
+.list-items p{
+  font-size: .8em;
+  line-height: 18px;
+}
+.list-items li p{
+  padding-left: 10px;
+}
+.service-page .cd-half-block {
+  height: 40em !important;
+  position: inherit !important;
+}
+.service-page .cd-half-block.left-side {
+  height: 43em !important;
+}
+
+.other-services{
+  padding-bottom: 30px;
+}
+
+
+/* About US */
+
+.about-page .section-1 .cd-block {
+  height: 80em !important;
+  background-image: none;
+}
+.about-page .section-1 .cd-half-block.left-side,
+.about-page .section-1 .cd-half-block.right-side {
+  box-shadow: none !important;
+  right: 0px !important;
+  left: 0px !important;
+}
+.about-page .section-1 .cd-half-block.right-side {
+  height: 47em !important;
+}
+.about-page .section-1 .cd-half-block.left-side {
+  height: 37em !important;
+  padding: 5% 2%;
+}
+.about-page .our-story p {
+  font-size: .93em;
+  line-height: 20px;
+}   
+.about-page .about-details{
+  position: absolute;
+}
+.about-details .item, .service-details .item {
+  padding-bottom: 15px;
+}
+.about-details .btn, .service-details .btn {
+  margin-bottom: 30px;
+}
+.our-team p{
+  font-size: .9em;
+  line-height: 20px;  
+}
+.team-details{
+ padding-top: 40px; 
+}
+.about-page .cd-half-block.left-side {
+  padding: 7% 2%;
+}
+.about-page blockquote{
+  font-size: .9rem;
+  padding: 10px;
+}
+.testimonial-slider {
+ width: 100%;
+ min-height: 330px;
+ margin: 0 auto;
+ position: absolute;
+ padding-bottom: 30px;
+ overflow: hidden;
+ padding-top: 50px;
+ z-index: 300;
+}
+.testimonial-slider h2{
+  font-size: 1.5em;
+}
+.about-page .about-details .item{
+  max-width: 100%;
+}
+.progress-wrap {
+  width: 45%;
+}
+.testimonial-slider label{
+  bottom: 140px;
+}
+.half-block.right-side .our-skills{
+  top: 400%;
+  position: absolute;
+}
+.about-page .section-title{
+  font-size: 2.6rem;  
+}
+.about-page .section-2 .cd-half-block.left-side {
+  height: 49em !important;
+}
+.about-page .section-2 .cd-half-block.right-side {
+  height: 47em !important;
+}
+.about-page .section-description{
+  font-size: .9rem;
+  padding-bottom: 35px;
+}
+.chart-content{
+  margin-left: 0;
+  font-size: 2.5em;
+  left: 36%;
+}
+.our-story p, .our-team p {
+  font-size: .9rem;
+  line-height: 20px;
+}
+.about-page .about-details{
+  padding-top: 30px;
+}
+.about-page .item-details {
+  font-size: 0.8em;
+  padding-top: 8px;
+  line-height: 20px;
+}
+.about-details .item{
+  padding-bottom: 15px;
+}
+.about-page .member{
+  max-width: 38% !important;
+}
+.about-details .item{
+  padding-bottom: 15px;
+}
+.about-page blockquote {
+  font-size: 1rem;
+}
+.portfolioFilter a{
+  margin: 5px 5px !important;
+  padding: 5px 8px !important;
+}
+.skills-details canvas{
+  height: 50%;
+  width: 80%;
+}
+.about-page .about-details .item{
+  max-width: 100%;
+}
+.about-details .item {
+  padding-right: 5px;
+}
+.about-page .member-social li a{
+  margin: 0;
+}
+
+.testimonial-slider {
+  width: 100%;
+  min-height: 520px;
+  margin: 30px auto;
+  position: relative;
+  padding-top: 0px; 
+}
+.testimonial-slider h2{
+  font-size: 2em !important;
+}
+.testimonial-slider h6{
+  font-size: 1.4em !important;
+}
+.wpcf7-form-control-wrap textarea {
+  width: 60%;
+}
+.wpcf7-form input[type=submit] {
+  padding: 15px 40px 0px 40px;
+}
+.wpcf7-form .submit-button:before {
+  left: 20px;
+}
+.page-top {
+  height: 20px;
+}
+.single-page .post-container {
+  padding: 0px;
+}
+.blog-single {
+  width: 100%;
+}
+.sidebar {
+  float: none;
+  padding-left: 0px;
+  width: 100%;
+}
+.commentform input {
+  width: 30% !important;
+}
+.blog-single .post-content {
+  padding-left: 70px;
+}
+.entry-date {
+  padding: 5px 10px 13px 10px;
+}
+.entry-text {
+  font-size: .875rem !important;
+  line-height: 23px;
+}
+.post-bottom {
+  padding-left: 70px;
+}
+.leave-comment {
+  padding-bottom: 50px;
+}
+.comment-content .btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+}
+.search-field {
+  font-size: .875rem;
+}
+.search-btn {
+  margin-top: 0px !important;
+  padding: 15px 20px !important; 
+}
+.latest-post li {
+  display: block;
+  min-height: 50px;
+}
+.comment-list .child {
+  padding-left: 0px;
+}
+.comment-author {
+  max-width: 70px;
+}
+.comment-content {
+  padding-left: 90px;
+}
+.comment-content p {
+  font-size: .8rem;
+  line-height: 23px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.blog-single blockquote {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.google-map-container {
+  height: 595px;
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+  .cd-section:first-of-type .cd-block {
+    height: 25em !important;
+  }
+  .site-logo {
+    padding-top: 50px !important;
+  }
+  .menu-area{
+    width: 350px;
+  }
+  .menu-logo {
+    padding-top: 30px;
+    left: 42%;
+  }
+  .overlay .overlay-close {
+    right: 6%;
+    top: 11%;
+  }
+  .overlay nav {
+    top: 62%;
+    left: -1%;
+  }
+  .overlay ul li a{
+
+  }
+  .main-title{
+   padding-top: 100px !important; 
+ }
+ .section-title{
+  padding-bottom: 10px;
+  font-size: 2rem;
+}
+.cd-section h1 {
+  font-size: 2.5rem;
+}
+.service-section {
+  height: 58em;
+}
+.service-section .cd-half-block.left-side {
+  height: 40em;
+}
+.service-details .title{
+  font-size: 1.4em;
+}
+.sub-title{
+  font-size: 1em;
+  margin-top: -60px !important;
+}
+.member{
+  padding-right: 0;
+}
+.cd-half-block:nth-of-type(1){
+  height: 25em;
+}
+.next-section {
+  padding-top: 30px;
+}
+.section-description {
+  font-size: .9rem;
+  line-height: 25px;
+  padding-bottom: 55px;
+}
+.item-details{
+  font-size: .9em;
+  padding-top: 10px;
+  line-height: 20px;
+}
+.item-title{
+  font-size: 1rem;
+}
+.about-details .item{
+  padding-bottom: 35px;
+}
+.portfolio-details figure {
+  max-width: inherit;
+}
+.entry-title{
+  font-size: .95rem;
+}
+.entry-text, .comment-content p {
+  font-size: .9rem;
+  line-height: 20px;
+}
+.portfolio-section {
+  height: 70em;
+}
+.portfolio-section .cd-half-block.left-side {
+  height: 45em;
+}
+.blog-details{
+  padding-right: 15px;
+}
+.member-name{
+  font-size: 1rem;
+}
+.contact-section {
+  height: 68em;
+}
+.contact-section .cd-half-block.left-side {
+  height: 45em;
+  padding: 5% 4% !important;
+}
+.google-map-container {
+  height: 400px;
+}
+.address-details{
+  padding-top: 40px !important;
+  padding-bottom: 30px;
+}
+address p, span.mobile-no, .address-details a {
+  font-size: .9rem;
+  line-height: 15px;
+}
+.contactform input, .contactform textarea{
+  font-size: .7rem;
+  margin-bottom: 25px;
+}
+/* Menu */
+.menu-area{
+  width: 240px;
+}
+.sliding-menu li{
+  max-width: 150px !important;
+}
+.sliding-menu a{
+  font-size: .8em;
+  padding: .8em;
+}
+.sliding-menu a.nav:before{
+  top: 15px;
+}
+.sliding-menu a.back:before{
+  left: 60px;
+  top:15px;
+}
+.sliding-menu a.back{
+  padding-top: 12px;
+  padding-left: 75px;
+}
+
+
+/* Service Page */
+.service-page .section-1 .cd-block {
+  height: 80em !important;
+}
+.service-page .section-description {
+  padding-bottom: 30px;
+  font-size: 1rem;
+  line-height: 25px;
+}
+.service-page .item-title {
+  font-size: 1rem;
+}
+.service-page .service-details p, .service-page .our-success p{
+  font-size: 1rem;
+}
+.service-page .service-details .item{
+  padding-bottom: 25px;
+  font-size: .85em;
+  max-width: 100%;
+}
+.service-page .service-details .item p{
+  font-size: 1em;
+  line-height: 22px;
+}
+.service-page .our-success{
+  padding-top: 35px;
+}
+.success-counter .item-icon{
+  font-size: 2em;
+  padding-bottom: 7px;
+}
+.success-counter .item-name{
+  font-size: 1.1em;
+}
+.success-counter .count{
+  font-size: 3em;
+}
+.other-services {
+  padding-bottom: 30px !important;
+}
+.other-services p{
+  font-size: 1em;
+}
+.list-items{
+  padding-top: 20px;
+}
+.list-items p{
+  font-size: .8em;
+  line-height: 18px;
+}
+.service-page .cd-half-block {
+  height: 40em !important;
+  position: inherit !important;
+}
+.service-page .cd-half-block.left-side {
+  height: 48em !important;
+}
+
+.other-services{
+  padding-bottom: 30px;
+}
+
+
+/* About US */
+.about-page .section-1 .cd-block {
+  background-image: none;
+  height: 70em !important;
+}
+.about-page .section-1 .cd-half-block.left-side {
+  box-shadow: none !important;
+  right: 0px !important;
+  left: 0px !important;
+  height: 35em !important;
+}
+.about-page .section-1 .cd-half-block.right-side {
+  height: 55em !important;
+}
+.about-page .our-story p {
+  font-size: .8em;
+  line-height: 20px;
+}    
+.about-page .about-details{
+  position: absolute;
+}
+.about-details .item, .service-details .item {
+  max-width: inherit;
+  width: 100%;
+  padding-bottom: 15px;
+}
+.about-details .btn, .service-details .btn {
+  margin-bottom: 30px;
+}
+.our-team p{
+  font-size: .9em;
+  line-height: 20px;  
+}
+.team-details{
+ padding-top: 40px; 
+}
+.about-page .member-details {
+  height: 135px;
+}
+.about-page blockquote{
+  font-size: .9rem;
+  padding: 10px;
+}
+.testimonial-slider h2{
+  font-size: 1.5em;
+}
+.slide img{
+  max-width: 100%;
+  height: 145px;
+}
+.about-page .about-details .item{
+  max-width: 100%;
+}
+.progress-wrap {
+  width: 45%;
+}
+
+.about-page .section-title{
+  font-size: 2.6rem;  
+}
+.about-page .section-description{
+  font-size: .9rem;
+  padding-bottom: 35px;
+}
+.chart-content{
+  margin-left: 0;
+  font-size: 2.5em;
+  left: 36%;
+}
+.our-story p, .our-team p {
+  font-size: .9rem;
+  line-height: 20px;
+}
+.about-page .section-2 .cd-half-block.left-side {
+  height: 50em !important;
+}
+.about-page .about-details{
+  padding-top: 30px;
+}
+.about-page .item-details {
+  font-size: 0.8em;
+  padding-top: 8px;
+  line-height: 20px;
+}
+.about-details .item{
+  padding-bottom: 15px;
+}
+.about-page .member{
+  max-width: 38% !important;
+}
+.about-details .item{
+  padding-bottom: 15px;
+}
+.about-page blockquote {
+  font-size: 1rem;
+}
+.skills-details{
+  padding-bottom: 80px;
+}
+.portfolioFilter a{
+  margin: 5px 5px !important;
+  padding: 5px 8px !important;
+}
+.skills-details canvas{
+  height: 50%;
+  width: 80%;
+}
+.about-page .about-details .item{
+  max-width: 100%;
+}
+.about-details .item {
+  padding-right: 5px;
+}
+.about-page .member-social li a{
+  margin: 0;
+}
+.testimonial-slider {
+  width: 100%;
+  min-height: 300px;
+  margin: 30px auto;
+  position: relative;
+  padding-top: 0px; 
+}
+.testimonial-slider label{
+  bottom: 15px;
+}
+.wpcf7-form-control-wrap textarea {
+  width: 60%;
+}
+.wpcf7-form input[type=submit] {
+  padding: 15px 40px 0px 40px;
+}
+.wpcf7-form .submit-button:before {
+  left: 20px;
+}
+.leave-comment {
+  padding-bottom: 40px;
+}
+.blog-single .entry-title {
+  font-size: 1.25rem;
+}
+.blog-single .entry-date {
+  font-size: .875rem;
+  padding: 5px 5px 6px 5px;
+}
+.blog-single .entry-date span {
+  font-size: 1em;
+  text-align: center;
+}
+.commentform input {
+  width: 46.5%;
+}
+.comment-list .child {
+  padding-left: 0px;
+}
+.contactform button {
+  margin-top: 27px;
+}
+
+
+}
+
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .cd-section:first-of-type .cd-block {
+    height: 30em !important;
+  }
+  .about-section .cd-half-block.right-side,
+  .team-section .cd-half-block.right-side,
+  .portfolio-section .cd-half-block.left-side,
+  .blog-section .cd-half-block.right-side,
+  .contact-section .cd-half-block.right-side {
+    top: 20em;
+    padding: 5% 2% !important;
+  }
+  .service-details .item{
+    max-width: 100%;
+  }
+  .site-logo {
+    padding-top: 60px !important;
+  }
+  .menu-logo{
+    left: 43%;
+    max-width: 70px;
+  }
+  .overlay ul li {
+    min-height: 25px !important;
+  }
+  .overlay ul li a{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .main-title{
+    padding-top: 135px; 
+  }
+  .section-title{
+    padding-bottom: 10px;
+    font-size: 2rem;
+  }
+  .cd-section h1 {
+    font-size: 1.75rem !important;
+  }
+  .cd-words-wrapper {
+    width: 180px !important
+  }
+  .service-section {
+    height: 58em;
+  }
+  .service-section .cd-half-block.left-side {
+    height: 40em;
+  }
+  .service-details .title{
+    font-size: 1.4em;
+  }
+  .sub-title{
+    font-size: 1em;
+    margin-top: -60px;
+  }
+  .team-section {
+    height: 51em;
+  }
+  .member{
+    padding-right: 0;
+    max-width: 48%;
+    padding-bottom: 30px;
+  }
+  .cd-half-block:nth-of-type(1){
+    height: 20em;
+  }
+  .next-section {
+    padding-top: 15px;
+  }
+  .section-description {
+    font-size: .9rem;
+    line-height: 25px;
+    padding-bottom: 55px;
+  }
+  .entry-title {
+    font-size: 0.9rem;
+  }
+  .item-details{
+    font-size: .9em;
+    padding-top: 10px;
+    line-height: 22px;
+  }
+  .item-title{
+    font-size: 1rem;
+  }
+  .about-details .item{
+    padding-bottom: 35px;
+  }
+  .portfolio-section {
+    height: 64em;
+  }
+  .portfolio-section .cd-half-block.left-side {
+    height: 45em;
+  }
+  .portfolio-details figure {
+    max-width: 95%;
+  }
+  .blog-section .type-post {
+    padding-bottom: 30px;
+  }
+  .post-content {
+    padding-left: 0 !important;
+  }
+  .entry-title{
+    font-size: .95rem !important;
+  }
+  .entry-text, .comment-content p {
+    font-size: .78rem;
+    line-height: 20px;
+  }
+  .blog-details{
+    padding-right: 15px;
+  }
+  .member-name{
+    font-size: 1rem;
+    display: block;
+  }
+  .contact-section .cd-half-block.left-side {
+    height: 60em;
+    padding: 5% 5% !important;
+  }
+  .address-details {
+    clear: both;
+    padding-top: 60px !important;
+    padding-bottom: 40px;
+  }
+  .address-details .item {
+    padding-bottom: 30px;
+    width: 100%;
+  }
+  .social-list {
+    padding-top: 0px;
+  }
+  address p, span.mobile-no, .address-details a {
+    font-size: 0.9rem;
+    line-height: 20px;
+  }
+  .contactform input {
+    width: 100%;
+  }
+  .contactform textarea {
+    width: 100%;
+  }
+  .contactform input, .contactform textarea{
+    font-size: .7rem;
+    margin-bottom: 25px;
+  }
+  .contactform button{
+    margin: 0px 10px 0px 0px;
+  }
+  .contact-bottom {
+    position: relative;
+  }
+  .page-link {
+    float: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .copy-right {
+    float: none;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Menu */
+  .overlay .overlay-close{
+    right: 8%;
+    top: 11%;
+  }
+  .overlay-genie.open nav{
+    padding-top: 0%;
+  }
+
+  /* About page */
+  .about-page .section-1 .cd-block {
+    background-image: none;
+    height: 75em !important;
+  }
+  .about-page .section-1 .cd-half-block.left-side,
+  .about-page .section-1 .cd-half-block.right-side {
+    box-shadow: none !important;
+    width: 100%;
+    right: 0px !important;
+    left: 0px !important;
+  }
+  .about-page .section-1 .cd-half-block.left-side {
+    height: 40em !important;
+  }
+  .about-page .our-story p {
+    font-size: .875em;
+    line-height: 20px;
+  }   
+  .about-page .about-details{
+    position: absolute;
+  }
+  .about-details .item, .service-details .item {
+    padding-bottom: 15px;
+  }
+  .about-details .btn, .service-details .btn {
+    margin-bottom: 30px;
+  }
+  .our-team p{
+    font-size: .93em;
+    line-height: 20px;  
+  }
+  .about-page .member-details {
+    height: 135px;
+  }
+  .about-page .section-2 .cd-half-block.left-side {
+    height: 35em !important;
+  }
+  .about-page blockquote{
+    font-size: .9rem;
+    padding: 10px;
+  }
+  .testimonial-slider {
+   width: 98%;
+   min-height: 400px;
+   margin: 0 auto;
+   position: absolute;
+   padding-bottom: 30px;
+   overflow: hidden;
+   padding-top: 50px;
+   z-index: 300;
+ }
+ .testimonial-slider h2{
+  font-size: 1.5em;
+}
+.slide img{
+  max-width: 100%;
+  height: 145px;
+}
+.about-page .about-details .item{
+  max-width: 100%;
+}
+.progress-wrap {
+  width: 45%;
+}
+.testimonial-slider label{
+  bottom: 50px;
+}
+.chart-content{
+  left: 31%;
+}
+.chart-title{
+  font-size: 1.1em;
+}
+.half-block.right-side .our-skills{
+  top: 400%;
+  position: absolute;
+}
+.about-page .section-title{
+  font-size: 2.6rem;  
+}
+.about-page .section-description{
+  font-size: .9rem;
+  padding-bottom: 35px;
+}
+.chart-content{
+  margin-left: 0;
+  font-size: 2em;
+}
+.our-story p, .our-team p {
+  font-size: .9rem;
+  line-height: 20px;
+}
+.about-page .about-details{
+  padding-top: 30px;
+}
+.about-page .item-details {
+  font-size: 0.8em;
+  padding-top: 8px;
+  line-height: 20px;
+}
+.about-details .item{
+  padding-bottom: 15px;
+}
+.about-page .member{
+  max-width: 44% !important;
+  margin: 0px 15px 15px 0px;
+}
+.about-details .item{
+  padding-bottom: 15px;
+}
+.about-page blockquote {
+  font-size: 1rem;
+}
+.portfolioFilter a{
+  margin: 5px 5px !important;
+  padding: 5px 12px !important;
+}
+.skills-details canvas{
+  height: 110px;
+  width: 110px;
+}
+.about-page .about-details .item{
+  max-width: 100%;
+}
+.about-details .item {
+  padding-right: 5px;
+}
+.about-page .member-social li a{
+  margin: 0;
+}
+
+/* Service Page */
+
+.success-counter .count{
+  font-size: 2.75em;
+}
+.success-counter .item-name {
+  font-size: .9em;
+}
+.service-details .item{
+  max-width: 100%;
+}
+.list-items li{
+  margin-bottom: 10px;
+}
+.list-items li p {
+  padding-left: 25px;
+  margin-top: -23px;
+}
+.service-page .section-description, .service-details p {
+  font-size: .9rem;
+  line-height: 20px;
+}
+.item-details{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.service-page .section-1 .cd-block {
+  background-image: none !important;
+  height: 95em !important;
+}
+.success-counter .count{
+  font-size: 2.75em;
+}
+.success-counter .item-name {
+  font-size: .9em;
+}
+.service-page .cd-half-block {
+  height: 40em !important;
+  position: inherit !important;
+}
+.service-page .cd-half-block.left-side {
+  height: 48em !important;
+}
+.other-services{
+  position: absolute;
+}
+.service-details .item{
+  max-width: 100%;
+}
+.list-items li{
+  margin-bottom: 10px;
+}
+.list-items li p {
+  padding-left: 25px;
+}
+.service-page .section-description, .service-details p {
+  font-size: .9rem;
+  line-height: 20px;
+}
+.item-details{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.wpcf7-form-control-wrap textarea {
+  width: 60%;
+}
+.wpcf7-form input[type=submit] {
+  padding: 15px 40px 0px 40px;
+  margin-right: 0px;
+}
+.wpcf7-form .submit-button:before {
+  left: 20px;
+}
+.google-map-container {
+  height: 320px;
+}
+.post-meta {
+  border: none;
+  float: none;
+}
+.entry-date span {
+  display: inline-block;
+}
+.page-top {
+  height: 20px;
+}
+.single-page .post-container {
+  padding: 0px;
+}
+.blog-single {
+  width: 100%;
+}
+.sidebar {
+  float: none;
+  padding-left: 0px;
+  width: 100%;
+}
+.blog-single .post-content {
+  padding-left: 0px;
+}
+.entry-date {
+  font-size: .875em;
+  padding: 5px 5px 6px 5px;
+}
+.entry-date span {
+  font-size: 1rem;
+}
+.post-content {
+  padding-left: 55px;
+}
+.entry-title {
+  font-size: 1.25rem;
+}
+.entry-text {
+  font-size: .875rem !important;
+  line-height: 23px;
+}
+.post-bottom {
+  font-size: .875rem;
+  padding-left: 0px;
+}
+.comment-content .btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+}
+.search-field {
+  font-size: .875rem;
+}
+.search-btn {
+  margin-top: 0px !important;
+  padding: 15px 20px !important; 
+}
+.latest-post li {
+  display: block;
+  min-height: 50px;
+}
+.comment-author {
+  float: none;
+  max-width: 70px;
+}
+.comment-content {
+  padding-top: 20px;
+  padding-left: 0px;
+}
+.comment-content p {
+  font-size: .8rem;
+  line-height: 23px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.blog-single blockquote {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.comment-list .child {
+  padding-left: 0px;
+}
+.commentform input,
+.commentform textarea {
+  width: 100%;
+}
+.commentform button {
+  width: 29%;
+  float: none;
+}
+.leave-comment {
+  padding-bottom: 50px;
+}
+
+}
+
+
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+  .about-section .cd-half-block.right-side, .team-section .cd-half-block.right-side, .portfolio-section .cd-half-block.left-side, .blog-section .cd-half-block.right-side, .contact-section .cd-half-block.right-side {
+    top: 17em;
+  }
+  .service-details .item{
+    max-width: 100%;
+  }
+  .menu-logo{
+    padding-top: 0px;
+    left: 43%;
+    max-width: 70px;
+  }
+  .overlay ul li {
+    min-height: 25px !important;
+  }
+  .cd-section:nth-of-type(2) .cd-half-block:first-of-type,
+  .cd-section:nth-of-type(3) .cd-half-block:first-of-type,
+  .cd-section:nth-of-type(4) .cd-half-block:first-of-type,
+  .cd-section:nth-of-type(5) .cd-half-block:first-of-type,
+  .cd-section:nth-of-type(6) .cd-half-block:first-of-type,
+  .cd-section:nth-of-type(7) .cd-half-block:first-of-type {
+    background-size: cover;
+  }
+  .site-logo {
+    padding-top: 60px;
+  }
+  .sub-title{
+    font-size: .9em;
+    margin-top: -75px;
+  }
+  .entry-text {
+    font-size: .8rem;
+    line-height: 20px;
+  }  
+  .main-title{
+    font-size: 1.25rem !important;
+    padding-top: 150px;
+  }
+  .section-title {
+    font-size: 2.06rem;
+  }
+  .item-details{
+    font-size: .8em;
+    line-height: 22px;
+  }
+  .section-description{
+    font-size: .9rem;
+    line-height: 22px;
+    letter-spacing: normal;
+    padding-bottom: 35px;
+  }
+  .about-section {
+    height: 48em;
+  }
+  .about-details .item, .service-details .item {
+    padding-bottom: 15px;
+  }
+  .about-details .btn, .service-details .btn {
+    margin-bottom: 30px;
+  }
+  .address-details li {
+    width: auto;
+  }
+  .member-name {
+    font-size: .8rem;
+  }
+  .member-position{
+   font-size: .8rem; 
+ }
+ .entry-title{
+  font-size: .9rem;   
+}
+.type-post {
+  padding-bottom: 40px;
+}
+.service-section {
+  height: 60em;
+}
+.service-section .cd-half-block.left-side {
+  height: 40em !important;
+}
+.service-details .item{
+  max-width: 100% !important;
+  padding-bottom: 25px !important;
+  font-size: 0.8em !important;
+}
+.overlay-genie.open nav{
+  padding-top: 15% !important;
+}
+.overlay .overlay-close{
+  right: 6% !important;
+  top: 6% !important;
+}
+.team-section {
+  height: 78em;
+}
+
+.portfolio-page .section-description{
+  font-size: .8em !important;
+}
+.portfolio-section .cd-half-block.left-side {
+  height: 41em !important;
+}
+.member{
+  width: 100%;
+  max-width: inherit;
+  padding-bottom: 30px !important;
+}
+.portfolio-details figure {
+  max-width: inherit;
+  width: 100%;
+}
+.showMenu{
+  top: 5% !important;
+  right: 2% !important;
+}
+.btn{
+  padding: 10px 20px !important;
+}
+.post-meta {
+  display: none;
+}
+.post-content{
+  display: inline !important;
+  padding-left: 0;
+}
+.contact-section .cd-half-block.left-side {
+  height: 58em !important;
+  padding: 5% !important;
+}
+.contactform input {
+  width: 100% !important;
+}
+.contactform textarea {
+  width: 100% !important;
+}
+.contactform button{
+  float: none;
+  margin: 0px 10px 10px 0px !important;
+  padding: 5px 10px;
+  width: inherit;
+}
+.address-details {
+  padding: 30px 0px !important;
+}
+.address-details .item {
+  width: 100%;
+  padding-top: 20px;
+}
+.contact-icon{
+  padding-bottom: 8px !important;
+}
+.contact-bottom {
+  position: relative;
+}
+.page-link {
+  float: none;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+.copy-right {
+  float: none;
+  width: 100%;
+  top: 40px;
+  text-align: center;
+  position: absolute;
+}
+details a {
+  font-size: 0.8rem !important;
+  line-height: 20px !important;
+}
+
+.menu-logo {
+  margin-top: 8% !important;
+  padding-top: 25px !important;
+  left: 40%;
+}
+.overlay-genie.open nav{
+  padding-top: 0% !important;
+}
+.overlay ul li a{
+  font-size: 22px;
+  line-height: 37px;
+}
+.about-page .member{
+  margin: 0;
+  margin-top: 25px !important;
+  width: 100%;
+}
+.chart-content{
+  left: 42% !important;
+  font-size: 2.5em !important;
+}
+.skills-details{
+  padding-bottom: 0px
+}
+.portfolioFilter a{
+  margin: 5px 5px !important;
+  padding: 5px 12px !important;
+}
+.blog-single .post-meta{
+  display: none !important;
+}
+.blog-single .post-content {
+  padding-left: 0px !important;
+}
+.comment-author img{
+  width: 50px !important;
+}
+.comment-content {
+  padding-left: 0px !important;
+}
+.commentform input {
+  width: 100% !important;
+}
+.commentform textarea{
+  width: 100% !important;
+}
+.commentform button {
+  float: none;
+  margin-top: 0px;
+}
+.leave-comment {
+  padding-bottom: 40px;
+}
+.success-count-container{
+  padding: 25px 0px 0px !important;
+}
+.success-counter .item-icon {
+  font-size: 3em !important;
+}
+.success-counter .item-name {
+  font-size: .8em !important;
+}
+.success-counter .count {
+  font-size: 3em;
+}
+.success-counter .item-icon {
+  font-size: 2em !important;
+}
+
+.comment-content {
+  padding-left: 0px !important;
+}
+.comment-content p{
+  font-size: .8em;
+  line-height: 22px;
+}
+.comment-content .author-name{
+  margin-left: 60px;
+}
+.comment-date time{
+  margin-left: 10px;
+}
+
+
+/* About Page */ 
+
+.about-page .section-1 {
+  height: 152em !important;
+}
+.about-page .our-story p{
+  font-size: .93em;
+  line-height: 22px;
+}   
+.about-details .item, .service-details .item {
+  padding-bottom: 15px;
+}
+.about-details .btn, .service-details .btn {
+  margin-bottom: 30px;
+}
+.our-team p{
+  font-size: .9em;
+  line-height: 20px;  
+}
+.about-page .section-1 .cd-half-block.left-side {
+  height: 50em !important;
+}
+.about-page .section-1 .cd-half-block.right-side {
+  height: 106em !important;
+}
+.about-page .section-2 .cd-half-block.left-side {
+  height: 74em !important;
+}
+.about-page .section-2 .cd-half-block.right-side {
+
+}
+.about-page blockquote{
+  font-size: .9rem;
+  padding: 10px;
+}
+.testimonial-slider label {
+  bottom: 0px;
+}
+.testimonial-slider {
+ width: 98%;
+ min-height: 330px;
+ margin: 0 auto;
+ position: absolute;
+ padding-bottom: 30px;
+ overflow: hidden;
+ padding-top: 50px;
+ z-index: 300;
+}
+.testimonial-slider h2{
+  font-size: 1.25em;
+}
+.testimonial-slider h6 { 
+  font-size: .93rem;
+}
+.slide img{
+  max-width: 100%;
+  height: 145px;
+}
+.about-page .about-details .item{
+  max-width: 100%;
+}
+.progress-wrap{
+  width: 100%;
+}
+.chart-title {
+  font-size: 1.25rem;
+}
+
+/* Service Page */
+
+.success-counter .count{
+  font-size: 2.75em;
+}
+.success-counter .item-name {
+  font-size: .9em;
+}
+.service-page .cd-half-block {
+  height: 40em !important;
+  position: inherit !important;
+}
+.service-page .cd-half-block.left-side {
+  height: 55em !important;
+}
+.service-details .item{
+  max-width: 100%;
+}
+.list-items li{
+  margin-bottom: 10px;
+}
+.list-items li p {
+  padding-left: 25px;
+}
+.service-page .section-description, .service-details p {
+  font-size: .9rem;
+  line-height: 20px;
+}
+.item-details{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.wpcf7-form-control-wrap textarea {
+  width: 55%;
+}
+.wpcf7-form input[type=submit] {
+  padding: 15px 30px 0px 30px;
+  margin-right: 0px;
+}
+.wpcf7-form .submit-button:before {
+  left: 15px;
+}
+.google-map-container {
+  height: 320px;
+}
+
+}
+
+
+@media only screen and (max-width: 320px){
+  .cd-section:first-of-type .cd-block {
+    height: 35em;
+  }
+  .cd-half-block:nth-of-type(1) {
+    height: 25em;
+  }
+  .about-section, .service-section, .blog-section, .contact-section {
+    height: 56em;
+  }
+  .portfolio-page .section-description{
+    font-size: .8em !important;
+  }
+  .member{
+    max-width: inherit;
+    width: 100%;
+    padding-bottom: 30px !important;
+  }
+  .site-logo {
+    padding-top: 60px;
+  }
+  .sub-title{
+    font-size: .9em;
+    margin-top: -101px;
+  }
+  .main-title{
+    font-size: 2rem !important;
+    padding-top: 150px;
+  }
+  .item-title {
+    font-size: .9rem !important;
+  }
+  .entry-title{
+    font-size: .9rem;   
+  }
+  .entry-text {
+    font-size: .8rem;
+    line-height: 18px;
+  }
+  .type-post {
+    padding-bottom: 30px;
+  }
+  .section-title {
+    font-size: 2.06rem;
+  }
+  .item-details{
+    font-size: .8em;
+    line-height: 22px;
+  }
+  .about-details .item, .service-details .item {
+    padding-bottom: 15px;
+  }
+  .about-details .btn, .service-details .btn {
+    margin-bottom: 30px;
+  }
+  .service-section .cd-half-block.left-side {
+    height: 40em !important;
+  }
+  .team-section {
+    height: 85em;
+  }
+  .member-name {
+    font-size: .8rem;
+  }
+  .portfolio-section {
+    height: 64em;
+  }
+  .portfolio-section .cd-half-block.left-side {
+    height: 40em !important;
+  }
+  .portfolio-details figure{
+    max-width: inherit;
+    width: 100%;
+  }
+  .member-position{
+    font-size: .93rem;
+  }
+  .section-description{
+    font-size: .8rem;
+    line-height: 22px;
+    letter-spacing: normal;
+    padding-bottom: 35px;
+  }
+  .showMenu{
+    top: 5% !important;
+    right: 2% !important;
+  }
+  .btn{
+    padding: 10px 20px !important;
+  }
+  .post-meta {
+    display: none;
+  }
+  .post-content{
+    display: inline !important;
+    padding-left: 0;
+  }
+  .google-map-container {
+    height: 400px;
+  }
+  .contact-section .cd-half-block.left-side {
+    height: 58em !important;
+    padding: 5% !important;
+  }
+  .contactform input {
+    width: 100% !important;
+  }
+  .contactform textarea {
+    width: 100% !important;
+  }
+  .contactform button{
+    float: none;
+    margin: 0px 10px 0px 0px;
+    width: 35%;
+  }
+  .contact-icon{
+    padding-bottom: 8px !important;
+  }
+  .address-details {
+    padding-top: 40px !important;
+  }
+  .address-details .item {
+    width: 100%;
+    padding-top: 15px;
+  }
+  .contact-bottom {
+    position: relative;
+  }
+  .page-link,
+  .copy-right {
+    float: none;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+  .page-link {
+    top: 0px;
+  }
+  .copy-right {
+    top: 35px;
+  }
+  details a {
+    font-size: 0.8rem !important;
+    line-height: 20px !important;
+  }
+  .overlay .overlay-close {
+    width: 20px !important;
+    height: 22px !important;
+    right: 18px !important;
+    top: 30px !important;
+  }
+  .menu-logo {
+    margin-top: 12% !important;
+    padding-top: 25px !important;
+    margin-left: -8%;
+    max-width: 70px;
+  }
+  .overlay-genie.open nav{
+    padding-top: 0% !important;
+  }
+  .overlay ul li a {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .chart-content{
+    left: 44% !important;
+    font-size: 2.5em !important;
+  }
+  .skills-details{
+    padding-bottom: 0px
+  }
+  .comment-content {
+    padding-left: 0px !important;
+  }
+  .comment-content p{
+    font-size: .8em;
+    line-height: 22px;
+  }
+  .comment-content .author-name{
+    margin-left: 60px;
+  }
+  .comment-date time{
+    margin-left: 10px;
+  }
+  .portfolioFilter a{
+    margin: 5px 5px !important;
+    padding: 5px 12px !important;
+  }
+  .blog-single .post-meta{
+    display: none !important;
+  }
+  .blog-single .post-content {
+    padding-left: 0px !important;
+  }
+  .comment-author img{
+    width: 50px !important;
+  }
+  .comment-content {
+    padding-left: 0px !important;
+  }
+  .commentform input {
+    width: 100% !important;
+  }
+  .commentform textarea{
+    width: 100% !important;
+  }
+  .commentform button{
+    float: none;
+    max-width: 35%;
+    margin: 0px 10px 0px 0px !important;
+  }
+
+  /* About Page */ 
+  .about-page .cd-half-block {
+    padding: 5% 0% !important;
+  }
+  .about-page .section-1 {
+    height: 150em !important;
+  }
+  .about-page .section-1 .cd-half-block.left-side {
+    height: 48em !important;
+  }
+  .about-page .section-1 .cd-half-block.right-side {
+    height: 103em !important;
+  }
+  .about-page .section-2 .cd-half-block.left-side {
+    height: 75em !important;
+  }
+  .about-page .section-2 .cd-half-block.right-side {
+    height: em !important;
+  }
+  .about-page .our-story p{
+    font-size: .9em;
+    line-height: 22px;
+  }   
+  .about-details .item, .service-details .item {
+    padding-bottom: 15px;
+  }
+  .about-details .btn, .service-details .btn {
+    margin-bottom: 30px;
+  }
+  .our-team p{
+    font-size: .9em;
+    line-height: 20px;  
+  }
+  .about-page .member{
+    margin: 45px 34px -25px 0px;
+  }
+  .about-page blockquote{
+    font-size: .9rem;
+    padding: 10px;
+  }
+  .testimonial-slider {
+   width: 100%;
+   min-height: 330px;
+   margin: 0 auto;
+   position: absolute;
+   padding-bottom: 30px;
+   overflow: hidden;
+   padding-top: 50px;
+   z-index: 300;
+ }
+ .testimonial-slider h2{
+  font-size: 1.5em;
+}
+.testimonial-slider label {
+  bottom: 0px;
+}
+.slide img{
+  max-width: 120px;
+}
+.about-page .about-details .item{
+  max-width: 100%;
+}
+.progress-wrap{
+  width: 100%;
+}
+
+/* Service Page */
+.success-counter .count{
+  font-size: 2.75em;
+}
+.success-counter .item-name {
+  font-size: .9em;
+}
+.service-page .cd-half-block {
+  height: 48em !important;
+  position: inherit !important;
+}
+.service-page .cd-half-block.left-side {
+  height: 53em !important;
+}
+.service-details .item{
+  max-width: 100%;
+}
+.list-items li{
+  margin-bottom: 10px;
+}
+.list-items li p {
+  padding-left: 25px;
+  line-height: 25px;
+}
+.service-page .section-description, .service-details p {
+  font-size: .875rem;
+  line-height: 20px;
+}
+.item-details{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.wpcf7-form-control-wrap textarea {
+  width: 55%;
+}
+.wpcf7-form input[type=submit] {
+  padding: 15px 30px 0px 30px;
+  margin-right: 0px;
+}
+.wpcf7-form .submit-button:before {
+  left: 15px;
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1180px) {
+  .single-page .post-container {
+    padding: 0 7%;
+  }
+
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1024px) {
+  .single-page .post-container {
+    padding: 0 2%;
+  }
+  .commentform input {
+    width: 30.5%;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 979px) {
+  .single-page .post-container {
+    padding: 0 2%;
+  }
+  .commentform input {
+    width: 30.5%;
+  }
+  .blog-single .post-content {
+    padding-left: 70px;
+  }
+  .entry-date {
+    padding: 5px 10px 13px 10px;
+  }
+  .post-bottom {
+    padding-left: 70px;
+  }
+  .comment-content .btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+  }
+  .sidebar a {
+    font-size: .875rem;
+  }
+  .search-field {
+    font-size: .875rem;
+  }
+  .search-btn {
+    padding: 15px;
+  }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 799px) {
+  .single-page .post-container {
+    padding: 0px;
+  }
+  .sidebar {
+    padding-left: 15px;
+  }
+  .commentform input {
+    width: 30.5%;
+  }
+  .blog-single .post-content {
+    padding-left: 70px;
+  }
+  .entry-date {
+    padding: 5px 10px 13px 10px;
+  }
+  .post-bottom {
+    padding-left: 70px;
+  }
+  .comment-content .btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+  }
+  .sidebar a {
+    font-size: .875rem;
+  }
+  .search-field {
+    font-size: .875rem;
+  }
+  .search-btn {
+    padding: 15px;
+  }
+
+}
+
+
+@media only screen and (min-width: 737px) and (max-width: 768px) { 
+  .single-page .post-container {
+    padding: 0px;
+  }
+  .sidebar {
+    padding-left: 15px;
+  }
+  .commentform input {
+    width: 30% !important;
+  }
+  .blog-single .post-content {
+    padding-left: 70px;
+  }
+  .entry-date {
+    padding: 5px 10px 13px 10px;
+  }
+  .entry-text {
+    font-size: .875rem !important;
+    line-height: 23px;
+  }
+  .post-bottom {
+    padding-left: 70px;
+  }
+  .comment-content .btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+  }
+  .sidebar a {
+    font-size: .875rem;
+  }
+  .search-field {
+    font-size: .875rem;
+  }
+  .search-btn {
+    padding: 14px 15px !important; 
+  }
+  .comment-author {
+    max-width: 70px;
+  }
+  .comment-content {
+    padding-left: 90px;
+  }
+  .comment-content p {
+    font-size: .8rem;
+    line-height: 23px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  .blog-single blockquote {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 736px) {
+  .single-page .post-container {
+    padding: 0px;
+  }
+  .blog-single {
+    width: 100%;
+  }
+  .sidebar {
+    float: none;
+    padding-left: 0px;
+    width: 100%;
+  }
+  .commentform input {
+    width: 30% !important;
+  }
+  .blog-single .post-content {
+    padding-left: 70px;
+  }
+  .entry-date {
+    padding: 5px 10px 13px 10px;
+  }
+  .entry-text {
+    font-size: .875rem !important;
+    line-height: 23px;
+  }
+  .post-bottom {
+    padding-left: 70px;
+  }
+  .comment-content .btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+  }
+  .search-field {
+    font-size: .875rem;
+  }
+  .search-btn {
+    margin-top: 0px !important;
+    padding: 15px 20px !important; 
+  }
+  .latest-post li {
+    display: block;
+    min-height: 50px;
+  }
+  .comment-author {
+    max-width: 70px;
+  }
+  .comment-content {
+    padding-left: 90px;
+  }
+  .comment-content p {
+    font-size: .8rem;
+    line-height: 23px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  .blog-single blockquote {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 639px) {
+  .single-page .post-container {
+    padding: 0px;
+  }
+  .blog-single {
+    width: 100%;
+  }
+  .sidebar {
+    float: none;
+    padding-left: 0px;
+    width: 100%;
+  }
+  .commentform input {
+    width: 30% !important;
+  }
+  .blog-single .post-content {
+    padding-left: 70px;
+  }
+  .entry-date {
+    padding: 5px 10px 13px 10px;
+  }
+  .entry-text {
+    font-size: .875rem !important;
+    line-height: 23px;
+  }
+  .post-bottom {
+    padding-left: 70px;
+  }
+  .comment-content .btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+  }
+  .search-field {
+    font-size: .875rem;
+  }
+  .search-btn {
+    margin-top: 0px !important;
+    padding: 15px 20px !important; 
+  }
+  .latest-post li {
+    display: block;
+    min-height: 50px;
+  }
+  .comment-author {
+    max-width: 70px;
+  }
+  .comment-content {
+    padding-left: 90px;
+  }
+  .comment-content p {
+    font-size: .8rem;
+    line-height: 23px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  .blog-single blockquote {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+
+@media only screen and (min-width: 569px) and (max-width: 600px) {
+ .single-page .post-container {
+  padding: 0px;
+}
+.blog-single {
+  width: 100%;
+}
+.sidebar {
+  float: none;
+  padding-left: 0px;
+  width: 100%;
+}
+.commentform input {
+  width: 30% !important;
+}
+.blog-single .post-content {
+  padding-left: 70px;
+}
+.entry-date {
+  padding: 5px 10px 13px 10px;
+}
+.entry-text {
+  font-size: .875rem !important;
+  line-height: 23px;
+}
+.post-bottom {
+  padding-left: 70px;
+}
+.comment-content .btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+}
+.search-field {
+  font-size: .875rem;
+}
+.search-btn {
+  margin-top: 0px !important;
+  padding: 15px 20px !important; 
+}
+.latest-post li {
+  display: block;
+  min-height: 50px;
+}
+.comment-author {
+  max-width: 70px;
+}
+.comment-content {
+  padding-left: 90px;
+}
+.comment-content p {
+  font-size: .8rem;
+  line-height: 23px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.blog-single blockquote {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 568px) {
+  .page-top {
+    height: 20px;
+  }
+  .single-page .post-container {
+    padding: 0px;
+  }
+  .blog-single {
+    width: 100%;
+  }
+  .sidebar {
+    float: none;
+    padding-left: 0px;
+    width: 100%;
+  }
+  .blog-single .post-content {
+    padding-left: 55px;
+  }
+  .entry-text {
+    font-size: .875rem !important;
+    line-height: 23px;
+  }
+  .post-bottom {
+    padding-left: 70px;
+  }
+  .comment-content .btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+  }
+  .search-field {
+    font-size: .875rem;
+  }
+  .search-btn {
+    margin-top: 0px !important;
+    padding: 15px 20px !important; 
+  }
+  .latest-post li {
+    display: block;
+    min-height: 50px;
+  }
+  .comment-author {
+    max-width: 70px;
+  }
+  .comment-content {
+    padding-left: 90px;
+  }
+  .comment-content p {
+    font-size: .8rem;
+    line-height: 23px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  .blog-single blockquote {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+}
+
+
+@media only screen and (min-width: 415px) and (max-width: 480px) {
+ .single-page .post-container {
+  padding: 0px;
+}
+.blog-single {
+  width: 100%;
+}
+.sidebar {
+  float: none;
+  padding-left: 0px;
+  width: 100%;
+}
+.blog-single .post-content {
+  padding-left: 70px;
+}
+.entry-date {
+  padding: 5px 10px 13px 10px;
+}
+.entry-text {
+  font-size: .875rem !important;
+  line-height: 23px;
+}
+.post-bottom {
+  padding-left: 70px;
+}
+.comment-content .btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+}
+.search-field {
+  font-size: .875rem;
+}
+.search-btn {
+  margin-top: 0px !important;
+  padding: 15px 20px !important; 
+}
+.latest-post li {
+  display: block;
+  min-height: 50px;
+}
+.comment-author {
+  max-width: 70px;
+}
+.comment-content {
+  padding-left: 90px;
+}
+.comment-content p {
+  font-size: .8rem;
+  line-height: 23px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.blog-single blockquote {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.comment-list .child {
+  padding-left: 0px;
+}
+}
+
+
+@media only screen and (min-width: 361px) and (max-width: 384px) {
+ .single-page .post-container {
+  padding: 0px;
+}
+.blog-single {
+  width: 100%;
+}
+.sidebar {
+  float: none;
+  padding-left: 0px;
+  width: 100%;
+}
+.entry-text {
+  font-size: .875rem !important;
+  line-height: 23px;
+}
+.comment-content .btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+}
+.search-field {
+  font-size: .875rem;
+}
+.search-btn {
+  margin-top: 0px !important;
+  padding: 15px 20px !important; 
+}
+.latest-post li {
+  display: block;
+  min-height: 50px;
+}
+.comment-author {
+  max-width: 70px;
+}
+.comment-content p {
+  font-size: .8rem;
+  line-height: 23px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.blog-single blockquote {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.comment-list .child {
+  padding-left: 0px;
+}
+}
+
+
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+ .single-page .post-container {
+  padding: 0px;
+}
+.blog-single {
+  width: 100%;
+}
+.sidebar {
+  float: none;
+  padding-left: 0px;
+  width: 100%;
+}
+.blog-single .post-content {
+  padding-left: 70px;
+}
+.entry-date {
+  padding: 5px 10px 13px 10px;
+}
+.entry-text {
+  font-size: .875rem !important;
+  line-height: 23px;
+}
+.post-bottom {
+  padding-left: 70px;
+}
+.comment-content .btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+}
+.search-field {
+  font-size: .875rem;
+}
+.search-btn {
+  margin-top: 0px !important;
+  padding: 15px 20px !important; 
+}
+.latest-post li {
+  display: block;
+  min-height: 50px;
+}
+.comment-author {
+  max-width: 70px;
+}
+.comment-content {
+  padding-left: 90px;
+}
+.comment-content p {
+  font-size: .8rem;
+  line-height: 23px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.blog-single blockquote {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.comment-list .child {
+  padding-left: 0px;
+}
+}
+
+@media only screen and (max-width: 320px){
+ .single-page .post-container {
+  padding: 0px;
+}
+.blog-single {
+  width: 100%;
+}
+.sidebar {
+  float: none;
+  padding-left: 0px;
+  width: 100%;
+}
+.blog-single .post-content {
+  padding-left: 70px;
+}
+.entry-date {
+  padding: 5px 10px 13px 10px;
+}
+.entry-text {
+  font-size: .875rem !important;
+  line-height: 23px;
+}
+.post-bottom {
+  font-size: .875em !important;
+  padding-left: 0px;
+}
+.comment-content .btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+}
+.search-field {
+  font-size: .875rem;
+}
+.search-btn {
+  margin-top: 0px !important;
+  padding: 15px 20px !important; 
+}
+.latest-post li {
+  display: block;
+  min-height: 50px;
+}
+.comment-author {
+  max-width: 70px;
+}
+.comment-content {
+  padding-left: 90px;
+}
+.comment-content p {
+  font-size: .8rem;
+  line-height: 23px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.blog-single blockquote {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.comment-list .child {
+  padding-left: 0px;
+}
+
+}
