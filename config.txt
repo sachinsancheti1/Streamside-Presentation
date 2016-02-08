@@ -1,0 +1,6 @@
+elements - b32731
+doors - ef0a0a
+walls - 030008 (5 px)
+walls inner - a4b2be
+window panels - 3811e3
+Text 60 px - 1c1479

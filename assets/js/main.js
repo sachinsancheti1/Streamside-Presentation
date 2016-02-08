@@ -67,7 +67,7 @@ $(document).on("mousewheel DOMMouseScroll", function(e) {
 
 $(document).on("click", ".scroll-btn", function() {
 	if (scrolling) return;
-	if ($(this).hasClass("up")) {
+	if ($(this).hasClass("down")) {
 		navigateUp();
 	} else {
 		navigateDown();
